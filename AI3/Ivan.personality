@@ -1,0 +1,13 @@
+<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>70561</nameID>
+   <tooltipID>70562</tooltipID>
+   <forcedciv>russians</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>Star_Wars\Politicians\Leader_GAR_Palpatine</icon>
+   <chatset>ivan</chatset>
+   <playerNames>
+      <nameID>70561<civ>russians</civ></nameID> 
+	</playerNames>
+</AI>

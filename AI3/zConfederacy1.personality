@@ -1,0 +1,13 @@
+<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>71068</nameID>
+   <tooltipID>70928</tooltipID>
+   <forcedciv>zConfederacy1</forcedciv>
+   <icon>Star_Wars\Politicians\Faction_Dooku</icon>
+   <rushboom>0</rushboom>
+   <chatset>ivan</chatset>
+   <playerNames>
+      <nameID>71068<civ>zConfederacy1</civ></nameID> 
+	</playerNames>
+</AI>

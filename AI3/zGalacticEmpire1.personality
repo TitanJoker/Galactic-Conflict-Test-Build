@@ -1,0 +1,13 @@
+<AI>
+   <version>2</version>
+   <script>aiLoaderStandard</script>
+   <nameID>70767</nameID>
+   <tooltipID>70768</tooltipID>
+   <forcedciv>zGalacticEmpire1</forcedciv>
+   <rushboom>0</rushboom>
+   <icon>Star_Wars\Politicians\Faction_Vader</icon>
+   <chatset>ivan</chatset>
+   <playerNames>
+      <nameID>70767<civ>zGalacticEmpire1</civ></nameID> 
+	</playerNames>
+</AI>
