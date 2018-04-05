@@ -1,0 +1,324 @@
+<!-- converted from XMB to XML -->
+
+<waterbodies>
+	<river name="Amazon River" iconname="ui\editor\wateramazonriver" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="Amazon\river1_am" bank="Amazon\river2_am" outerbank="amazon\ground3_ama" slope="" color="85 56 0" deepcolor="0 0 0" depth="3.000000" fresnelscale="3.057851" fresnelbias="0.125000" cliffbanks="Orinoco" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="2.500000" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="2.066116" reflectionamount="-0.109375" bumpscale="0.380000" reflectionbumpscale="0.170000" foamscale="-0.190000" texscale="2.890000" texscrollspeed="4.000000" texrotation="225.000000" rivertexcoords="false">
+		<objectplacement curveangle="15.0" distancebetween="30.0" distancevariation="10.0" locktowateredge=""/>
+		<riverline>
+			<riverobj name="RiverShallowsOri" shallowslining="fill" minsplinedistance="4.0" maxsplinedistance="8.0" mincrossdistance="4.0" maxcrossdistance="8.0" maxpercenttoshore="0.80" randomyaw="false" clusterminnum="1" clustermaxnum="3" clusterspread="4.0"/>
+		</riverline>
+	</river>
+	<river name="Andes River" iconname="ui\editor\waterandesriver" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="andes\ground14_and" bank="andes\ground14_and" outerbank="andes\ground10_and" slope="" color="76 34 96" deepcolor="0 0 0" depth="2.000000" fresnelscale="1.570248" fresnelbias="0.265625" cliffbanks="andes River" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="3.057852" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.900826" reflectionamount="0.125000" bumpscale="0.230000" reflectionbumpscale="0.520000" foamscale="-0.020000" texscale="2.480000" texscrollspeed="3.510000" texrotation="0.000000">
+		<objectplacement curveangle="15.0" distancebetween="30.0" distancevariation="10.0" locktowateredge=""/>
+		<shoreline>
+			<shoreobj name="RiverEdgeFlow" mindistance="3" maxdistance="8" deltawatermin="1.0" deltawatermax="2.0" randomyaw="false"/>
+			<shoreobj name="RiverRocksSmall" mindistance=".5" maxdistance="2" deltawatermin="0.0" deltawatermax="1.0" randomyaw="true"/>
+			<shoreobj name="RiverObjectsPam" mindistance="3" maxdistance="5" deltawatermin="0.0" deltawatermax="1.0" randomyaw="true"/>
+		</shoreline>
+		<riverline>
+			<riverobj name="RiverRocksSmall" minsplinedistance="30" maxsplinedistance="60" mincrossdistance="15" maxcrossdistance="50" maxpercenttoshore="0.99" mirror="false" randomyaw="false" clusterminnum="4" clustermaxnum="8" clusterspread="3.0"/>
+			<riverobj name="RiverFlow" minsplinedistance="10" maxsplinedistance="20" mincrossdistance="10" maxcrossdistance="20" maxpercenttoshore="0.99" mirror="false" randomyaw="false" clusterminnum="1" clustermaxnum="1"/>
+			<riverobj name="RiverEdgeFlow" minsplinedistance="20" maxsplinedistance="40" mincrossdistance="10" maxcrossdistance="20" maxpercenttoshore="0.99" mirror="false" randomyaw="false" clusterminnum="1" clustermaxnum="1"/>
+			<riverobj name="RiverRocksSmall" shallowslining="upstream" minsplinedistance="-2" maxsplinedistance="3" mincrossdistance="3" maxcrossdistance="5" maxpercenttoshore="0.99" randomyaw="false" clusterminnum="2" clustermaxnum="5" clusterspread="4.0"/>
+			<riverobj name="RiverShallowsPam" shallowslining="fill" minsplinedistance="5.0" maxsplinedistance="8.0" mincrossdistance="5.0" maxcrossdistance="8.0" maxpercenttoshore="0.99" randomyaw="true"/>
+		</riverline>
+	</river>
+	<river name="Pampas River" iconname="ui\editor\waterpampasriver" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="pampas\ground2_pam" bank="pampas\ground1_pam" outerbank="pampas\ground6_pam" slope="" color="76 34 96" deepcolor="0 0 0" depth="3.000000" fresnelscale="1.570248" fresnelbias="0.265625" cliffbanks="Pampas River" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="3.057852" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.900826" reflectionamount="0.125000" bumpscale="0.230000" reflectionbumpscale="0.520000" foamscale="-0.020000" texscale="2.480000" texscrollspeed="3.510000" texrotation="0.000000">
+		<objectplacement curveangle="15.0" distancebetween="30.0" distancevariation="10.0" locktowateredge=""/>
+		<shoreline>
+			<shoreobj name="RiverEdgeFlow" mindistance="3" maxdistance="8" deltawatermin="1.0" deltawatermax="2.0" randomyaw="false"/>
+			<shoreobj name="RiverRocksSmall" mindistance=".5" maxdistance="2" deltawatermin="0.0" deltawatermax="1.0" randomyaw="true"/>
+			<shoreobj name="RiverObjectsPam" mindistance="3" maxdistance="5" deltawatermin="0.0" deltawatermax="1.0" randomyaw="true"/>
+		</shoreline>
+		<riverline>
+			<riverobj name="RiverRocksSmall" minsplinedistance="30" maxsplinedistance="60" mincrossdistance="15" maxcrossdistance="50" maxpercenttoshore="0.99" mirror="false" randomyaw="false" clusterminnum="4" clustermaxnum="8" clusterspread="3.0"/>
+			<riverobj name="RiverFlow" minsplinedistance="10" maxsplinedistance="20" mincrossdistance="10" maxcrossdistance="20" maxpercenttoshore="0.99" mirror="false" randomyaw="false" clusterminnum="1" clustermaxnum="1"/>
+			<riverobj name="RiverEdgeFlow" minsplinedistance="20" maxsplinedistance="40" mincrossdistance="10" maxcrossdistance="20" maxpercenttoshore="0.99" mirror="false" randomyaw="false" clusterminnum="1" clustermaxnum="1"/>
+			<riverobj name="RiverRocksSmall" shallowslining="upstream" minsplinedistance="-2" maxsplinedistance="3" mincrossdistance="3" maxcrossdistance="5" maxpercenttoshore="0.99" randomyaw="false" clusterminnum="2" clustermaxnum="5" clusterspread="4.0"/>
+			<riverobj name="RiverShallowsPam" shallowslining="fill" minsplinedistance="5.0" maxsplinedistance="8.0" mincrossdistance="5.0" maxcrossdistance="8.0" maxpercenttoshore="0.99" randomyaw="true"/>
+		</riverline>
+	</river>
+	<river name="Yukon River" iconname="ui\editor\wateryukonriver" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="yukon\ground2_yuk" bank="yukon\ground2_yuk" outerbank="yukon\ground1_yuk" slope="" color="25 81 107" deepcolor="0 0 0" depth="3.000000" fresnelscale="2.975207" fresnelbias="0.250000" cliffbanks="YukonRiver" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="2.500000" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.000000" reflectionamount="2.000000" bumpscale="0.230000" reflectionbumpscale="0.520000" foamscale="-0.020000" texscale="2.000000" texscrollspeed="4.000000" texrotation="99.999992">
+		<objectplacement curveangle="15.0" distancebetween="30.0" distancevariation="10.0" locktowateredge=""/>
+		<riverline>
+			<riverobj name="RiverPropsYuk" minsplinedistance="30" maxsplinedistance="60" mincrossdistance="15" maxcrossdistance="50" maxpercenttoshore="0.99" mirror="false" randomyaw="false" clusterminnum="4" clustermaxnum="8" clusterspread="3.0"/>
+			<riverobj name="RiverFlow" minsplinedistance="10" maxsplinedistance="20" mincrossdistance="10" maxcrossdistance="20" maxpercenttoshore="0.99" mirror="false" randomyaw="false" clusterminnum="1" clustermaxnum="1"/>
+			<riverobj name="RiverEdgeFlow" minsplinedistance="20" maxsplinedistance="40" mincrossdistance="10" maxcrossdistance="20" maxpercenttoshore="0.99" mirror="false" randomyaw="false" clusterminnum="1" clustermaxnum="1"/>
+			<riverobj name="RiverPropsYuk" shallowslining="upstream" minsplinedistance="-2" maxsplinedistance="3" mincrossdistance="3" maxcrossdistance="5" maxpercenttoshore="0.99" randomyaw="false" clusterminnum="2" clustermaxnum="5" clusterspread="4.0"/>
+			<riverobj name="RiverPropsYuk" shallowslining="downstream" minsplinedistance="-2" maxsplinedistance="3" mincrossdistance="3" maxcrossdistance="5" maxpercenttoshore="0.99" randomyaw="false" clusterminnum="4" clustermaxnum="8" clusterspread="2.0"/>
+			<riverobj name="RiverPropsYuk" shallowslining="fill" minsplinedistance="6" maxsplinedistance="15" mincrossdistance="0.4" maxcrossdistance="5.0" maxpercenttoshore="0.99" randomyaw="false" clusterminnum="3" clustermaxnum="6" clusterspread="4.0"/>
+			<riverobj name="RiverPropsYuk" shallowslining="fill" minsplinedistance="6" maxsplinedistance="15" mincrossdistance="0.4" maxcrossdistance="5.0" maxpercenttoshore="0.99" randomyaw="false" clusterminnum="1" clustermaxnum="2" clusterspread="4.0"/>
+		</riverline>
+	</river>
+	<ocean name="Atlantic Coast" iconname="ui\editor\wateratlanticcoast" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="carolinas\ground_shoreline1_car" bank="carolinas\ground_shoreline2_car" outerbank="carolinas\ground_shoreline3_car" slope="" color="45 81 54" deepcolor="0 0 0" depth="3.000000" fresnelscale="3.140496" fresnelbias="0.160000" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="2.500000" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.735537" reflectionamount="0.093750" bumpscale="0.340000" reflectionbumpscale="0.270000" foamscale="-0.030000" texscale="2.000000" texscrollspeed="4.000000" texrotation="99.999992">
+		<textureplacement>
+			<texture distance="10.0">Carolinas\ground_shoreline1_car</texture>
+		</textureplacement>
+		<beachtextureplacement>
+			<texture distance="3.00" variance="1">Carolinas\ground_shoreline1_car</texture>
+			<texture distance="8.00" variance="1">Carolinas\ground_shoreline2_car</texture>
+			<texture distance="18.0" variance="5">Carolinas\ground_shoreline3_car</texture>
+			<texture distance="25.0" variance="5">carolinas\ground_marsh1_car</texture>
+			<texture distance="30.0" variance="1">carolinas\ground_marsh2_car</texture>
+			<texture distance="40.0" variance="1">carolinas\ground_marsh3_car</texture>
+		</beachtextureplacement>
+		<shoreline>
+			<shorelong name="ShorelineFoam" distance="2.0" randomyaw="false"/>
+			<waves bumpmap="terrain\water\waterwavebump" bumpmapcrashposition="0.45" foam1tex="terrain\waves\wavefoam" foam2tex="terrain\waves\wavefoam2" foamalphasidetex="terrain\waves\wavefoam_alpha" foamalphabacktex="terrain\waves\wavefoam_alphaback" minlength="20.00" maxlength="35.00" minconcavelength="10.72" maxconcavelength="24.89" minwidth="2.00" maxwidth="5.00" minheight="0.33" maxheight="0.54" minfadelength="8.00" maxfadelength="16.20" minspeed="0.90" maxspeed="1.20" foamstartnormalizedtime="0.10" foamnormalizedspeed="0.00" foammaxnormalizedwidth="1.00" foam1scrollspeed="0.05" foam2scrollspeed="0.23" foamfadeintime="2.00" foamfadeouttime="2.70" recedetime="3.40" recedeendscale="1.00" recedemotion="true" variance="3.00" minstartdistance="15.37" maxstartdistance="20.00" sectionlength="15.00" wavedensity="4" convexitylimit="-11.57" concavitylimit="16.70"/>
+		</shoreline>
+	</ocean>
+	<ocean name="Caribbean Coast" iconname="ui\editor\watercaribbeancoast" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="caribbean\ground_shoreline1_crb" bank="caribbean\ground_shoreline2_crb" outerbank="caribbean\ground_shoreline3_crb" slope="" color="9 110 88" deepcolor="0 0 0" depth="3.000000" fresnelscale="0.247934" fresnelbias="0.555556" alphaminvalue="0.000000" alphamaxvalue="0.914063" alphamindepth="0.000000" alphamaxdepth="1.900827" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.842105" reflectionamount="-0.222222" bumpscale="0.660000" reflectionbumpscale="0.710000" foamscale="-0.110000" texscale="1.970000" texscrollspeed="0.000000" texrotation="129.000000">
+		<textureplacement>
+			<texture distance="12" variance="4">caribbean\ground_shoreline1_crb</texture>
+			<texture distance="16" variance="6">caribbean\seafloor_coral4_crb</texture>
+			<texture distance="20" variance="6">caribbean\seafloor_coral3_crb</texture>
+			<texture distance="28" variance="6">caribbean\seafloor_coral2_crb</texture>
+			<texture distance="34" variance="4">caribbean\seafloor_coral1_crb</texture>
+			<texture distance="48" variance="4">caribbean\seafloor_coral0_crb</texture>
+		</textureplacement>
+		<beachtextureplacement>
+			<texture distance="1.00" variance="1">caribbean\ground_shoreline1_crb</texture>
+			<texture distance="5.00" variance="1">caribbean\ground_shoreline2_crb</texture>
+			<texture distance="8.00" variance="1">caribbean\ground_shoreline2_crb</texture>
+			<texture distance="14.0" variance="4">caribbean\ground4_crb</texture>
+			<texture distance="20.0" variance="4">caribbean\ground3_crb</texture>
+			<texture distance="26.0" variance="4">caribbean\ground2_crb</texture>
+		</beachtextureplacement>
+		<shoreline>
+			<shorelong name="ShorelineFoam" distance="2.0" randomyaw="false"/>
+			<waves bumpmap="terrain\water\waterwavebump" bumpmapcrashposition="0.45" foam1tex="terrain\waves\wavefoam" foam2tex="terrain\waves\wavefoam2" foamalphasidetex="terrain\waves\wavefoam_alpha" foamalphabacktex="terrain\waves\wavefoam_alphaback" minlength="15.00" maxlength="35.00" minconcavelength="8.69" maxconcavelength="12.74" minwidth="2.00" maxwidth="5.00" minheight="0.65" maxheight="0.75" minfadelength="8.00" maxfadelength="14.00" minspeed="0.90" maxspeed="1.20" foamstartnormalizedtime="0.10" foamnormalizedspeed="0.00" foammaxnormalizedwidth="1.00" foam1scrollspeed="0.05" foam2scrollspeed="0.23" foamfadeintime="2.00" foamfadeouttime="2.70" recedetime="3.40" recedeendscale="1.00" recedemotion="true" variance="3.50" minstartdistance="14.00" maxstartdistance="20.00" sectionlength="15.00" wavedensity="3" convexitylimit="-11.35" concavitylimit="11.21"/>
+		</shoreline>
+	</ocean>
+	<ocean name="Cinematic Ship Ocean" iconname="ui\editor\watercinematicship" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="carolinas\ground_shoreline1_car" bank="carolinas\ground_shoreline2_car" outerbank="carolinas\ground_shoreline3_car" slope="" color="25 49 49" deepcolor="0 0 0" depth="5.000000" fresnelscale="1.736000" fresnelbias="-0.438000" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="2.500000" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.000000" reflectionamount="-0.015625" bumpscale="0.340000" reflectionbumpscale="0.290000" foamscale="-0.030000" texscale="2.000000" texscrollspeed="25.000000" texrotation="275.000000">
+		<textureplacement>
+			<texture distance="7">yucatan\ground_shoreline4_yuc</texture>
+			<texture distance="11">caribbean\seafloor_coral4_crb</texture>
+			<texture distance="15">caribbean\seafloor_coral3_crb</texture>
+			<texture distance="20">caribbean\seafloor_coral2_crb</texture>
+			<texture distance="25">caribbean\seafloor_coral1_crb</texture>
+			<texture distance="30">caribbean\seafloor_coral0_crb</texture>
+		</textureplacement>
+		<beachtextureplacement>
+			<texture distance="3" variance="0">yucatan\ground_shoreline4_yuc</texture>
+			<texture distance="5.0" variance="3">yucatan\ground_shoreline3_yuc</texture>
+			<texture distance="9.0" variance="4">yucatan\ground_shoreline2_yuc</texture>
+			<texture distance="12.0" variance="4">yucatan\ground_shoreline1_yuc</texture>
+			<texture distance="14.0" variance="4">caribbean\ground4_crb</texture>
+			<texture distance="16.0" variance="4">caribbean\ground3_crb</texture>
+			<texture distance="18.0" variance="4">caribbean\ground2_crb</texture>
+		</beachtextureplacement>
+		<shoreline/>
+	</ocean>
+	<ocean name="Hudson Bay" iconname="ui\editor\waterhudsonbay" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="saguenay\shoreline1_sag" bank="saguenay\shoreline2_sag" outerbank="saguenay\shoreline3_sag" slope="" color="49 69 125" deepcolor="0 0 0" depth="3.000000" fresnelscale="1.570248" fresnelbias="0.265625" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="2.500000" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="2.066116" reflectionamount="-0.046875" bumpscale="0.230000" reflectionbumpscale="0.520000" foamscale="-0.020000" texscale="2.000000" texscrollspeed="1.750000" texrotation="99.999992">
+		<shoreline>
+			<shorelong name="ShorelineFoam" distance="2.0" randomyaw="false"/>
+			<waves bumpmap="terrain\water\waterwavebump" bumpmapcrashposition="0.45" foam1tex="terrain\waves\wavefoam" foam2tex="terrain\waves\wavefoam2" foamalphasidetex="terrain\waves\wavefoam_alpha" foamalphabacktex="terrain\waves\wavefoam_alphaback" minlength="7.48" maxlength="22.06" minconcavelength="3.83" maxconcavelength="6.67" minwidth="2.00" maxwidth="5.00" minheight="0.36" maxheight="0.49" minfadelength="8.00" maxfadelength="14.00" minspeed="0.53" maxspeed="0.69" foamstartnormalizedtime="0.10" foamnormalizedspeed="0.00" foammaxnormalizedwidth="1.00" foam1scrollspeed="0.05" foam2scrollspeed="0.23" foamfadeintime="2.00" foamfadeouttime="2.70" recedetime="3.40" recedeendscale="1.00" recedemotion="true" variance="3.00" minstartdistance="2.68" maxstartdistance="4.12" sectionlength="10.83" wavedensity="2" convexitylimit="-8.20" concavitylimit="8.38"/>
+		</shoreline>
+	</ocean>
+	<ocean name="Bayou SPC" iconname="ui\editor\waterbayouspc" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="bayou\ground4_bay" bank="bayou\ground5_bay" outerbank="bayou\ground6_bay" slope="" color="82 61 0" deepcolor="0 0 0" depth="0.750000" fresnelscale="1.148" fresnelbias="0.1300000" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="0.000000" alphamaxdepth="1.074380" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="2.231405" reflectionamount="-0.437500" bumpscale="0.210000" reflectionbumpscale="0.270000" foamscale="-0.030000" texscale="2.070000" texscrollspeed="0.000000" texrotation="99.999992"/>
+	<ocean name="New England Coast" iconname="ui\editor\waternewenglandcoast" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="new_england\shoreline1_ne" bank="new_england\ground2_ne" outerbank="new_england\ground3_ne" slope="" color="45 58 89" deepcolor="0 0 0" depth="3.000000" fresnelscale="1.735537" fresnelbias="0.046875" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="2.500000" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.983471" reflectionamount="0.046875" bumpscale="0.440000" reflectionbumpscale="0.140000" foamscale="-0.160000" texscale="2.000000" texscrollspeed="2.630000" texrotation="154.000000">
+		<textureplacement/>
+		<beachtextureplacement>
+			<texture distance="1.0" variance="0">new_england\shoreline1_ne</texture>
+			<texture distance="2.0" variance="1">new_england\shoreline2_ne</texture>
+			<texture distance="3.0" variance="2">new_england\shoreline3_ne</texture>
+			<texture distance="4.0" variance="2">new_england\shoreline4_ne</texture>
+		</beachtextureplacement>
+		<shoreline>
+			<shoreobj name="ShorelineRockBigNE" mindistance="50.0" maxdistance="70.0" deltawatermin="0.0" deltawatermax="1.0" randomyaw="false"/>
+			<shoreobj name="ShorelineRockSmallNE" mindistance="1" maxdistance="15" deltawatermin="0.0" deltawatermax="0.75" randomyaw="true"/>
+			<shorelong name="ShorelineFoam" distance="2.0" randomyaw="false"/>
+			<shorecliff backcliffdistmin="14.0" backcliffdistmax="20.0" backcliffprob="1.0">
+				<watercliff name="New England" paintedge="true" lengthmin="0.07" lengthmax="0.15" smoothdistance="10.0" lowheight="1.0" topheight="4.5" noisemin="0.0" noisemax="0.1"/>
+				<backcliff name="New England Inland" paintedge="true" lengthmin="0.07" lengthmax="0.15" smoothdistance="14.0" lowheight="1.0" topheight="4.0" noisemin="0.0" noisemax="0.1"/>
+			</shorecliff>
+			<waves bumpmap="terrain\water\waterwavebump" bumpmapcrashposition="0.50" foam1tex="terrain\waves\wavefoam" foam2tex="terrain\waves\wavefoam2" foamalphasidetex="terrain\waves\wavefoam_alpha" foamalphabacktex="terrain\waves\wavefoam_alphaback" minlength="12.74" maxlength="19.63" minconcavelength="11.53" maxconcavelength="13.96" minwidth="3.34" maxwidth="4.68" minheight="0.35" maxheight="0.41" minfadelength="1.82" maxfadelength="6.61" minspeed="0.85" maxspeed="1.18" foamstartnormalizedtime="0.08" foamnormalizedspeed="0.00" foammaxnormalizedwidth="1.00" foam1scrollspeed="0.00" foam2scrollspeed="0.00" foamfadeintime="0.50" foamfadeouttime="3.31" recedetime="3.39" recedeendscale="1.17" recedemotion="true" variance="3.06" minstartdistance="15.14" maxstartdistance="17.78" sectionlength="15.00" wavedensity="3" convexitylimit="-9.73" concavitylimit="10.11"/>
+		</shoreline>
+	</ocean>
+	<ocean name="Amazon River Basin" iconname="ui\editor\wateramazonriver" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="Amazon\river1_am" bank="Amazon\river2_am" outerbank="amazon\ground3_ama" slope="" color="45 58 89" deepcolor="0 0 0" depth="3.000000" fresnelscale="1.735537" fresnelbias="0.046875" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="2.500000" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.983471" reflectionamount="0.046875" bumpscale="0.440000" reflectionbumpscale="0.140000" foamscale="-0.160000" texscale="2.000000" texscrollspeed="2.630000" texrotation="154.000000">
+		<textureplacement/>
+		<shoreline>
+			<shoreobj name="underbrushjungle" mindistance="10.0" maxdistance="15.0" deltabeachmin="6.0" deltabeachmax="10.0" randomyaw="true"/>
+			<shorelong name="ShorelineFoam" distance="2.0" randomyaw="false"/>
+			<shorecliff backcliffdistmin="14.0" backcliffdistmax="20.0" backcliffprob="1.0">
+				<watercliff name="Amazon" paintedge="true" lengthmin="0.07" lengthmax="0.15" smoothdistance="10.0" lowheight="1.0" topheight="4.5" noisemin="0.0" noisemax="0.1"/>
+				<backcliff name="Amazon" paintedge="true" lengthmin="0.07" lengthmax="0.15" smoothdistance="14.0" lowheight="1.0" topheight="4.0" noisemin="0.0" noisemax="0.1"/>
+			</shorecliff>
+		</shoreline>
+	</ocean>
+	<ocean name="Yucatan Coast" iconname="ui\editor\wateryucatan" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="yucatan\ground_shoreline1_yuc" bank="Amazon\ground4_ama" outerbank="Amazon\ground3_ama" slope="" color="60 78 141" deepcolor="0 0 0" depth="3.000000" fresnelscale="2.975207" fresnelbias="0.250000" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="2.500000" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="2.727273" reflectionamount="0.156250" bumpscale="0.230000" reflectionbumpscale="0.520000" foamscale="-0.020000" texscale="2.000000" texscrollspeed="1.750000" texrotation="90.000000">
+		<textureplacement/>
+		<beachtextureplacement>
+			<texture distance="4.0" variance="0">"yucatan\ground_shoreline1_yuc"</texture>
+			<texture distance="8.0" variance="0">"Amazon\ground4_ama"</texture>
+		</beachtextureplacement>
+		<shoreline>
+			<shorelong name="ShorelineFoam" distance="2.0" randomyaw="false"/>
+			<waves bumpmap="terrain\water\waterwavebump" bumpmapcrashposition="0.45" foam1tex="terrain\waves\wavefoam" foam2tex="terrain\waves\wavefoam2" foamalphasidetex="terrain\waves\wavefoam_alpha" foamalphabacktex="terrain\waves\wavefoam_alphaback" minlength="20.00" maxlength="29.35" minconcavelength="10.72" maxconcavelength="24.89" minwidth="2.00" maxwidth="5.00" minheight="0.33" maxheight="0.54" minfadelength="8.00" maxfadelength="16.20" minspeed="0.90" maxspeed="1.20" foamstartnormalizedtime="0.06" foamnormalizedspeed="0.00" foammaxnormalizedwidth="1.00" foam1scrollspeed="0.05" foam2scrollspeed="0.23" foamfadeintime="2.00" foamfadeouttime="2.70" recedetime="3.40" recedeendscale="1.00" recedemotion="true" variance="3.00" minstartdistance="15.37" maxstartdistance="20.00" sectionlength="15.00" wavedensity="4" convexitylimit="-13.10" concavitylimit="11.36"/>
+		</shoreline>
+	</ocean>
+	<lake name="Great Lakes Ice" iconname="ui\editor\watergreatlakesice" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="great_lakes\ground_shoreline2_gl" bank="great_lakes\ground_ice3_gl" outerbank="great_lakes\ground_ice1_gl" slope="" color="25 96 116" deepcolor="0 0 0" depth="3.000000" fresnelscale="3.140496" fresnelbias="0.171875" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.074380" alphamaxdepth="1.404959" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.487603" reflectionamount="0.015625" bumpscale="0.500000" reflectionbumpscale="0.560000" foamscale="-0.050000" texscale="2.000000" texscrollspeed="1.750000" texrotation="69.000000"/>
+	<lake name="Great Lakes" iconname="ui\editor\watergreatlakes" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="new_england\shoreline1_ne" bank="new_england\shoreline3_ne" outerbank="new_england\shoreline4_ne" slope="" color="29 81 101" deepcolor="0 0 0" depth="3.000000" fresnelscale="4.049587" fresnelbias="0.328125" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="2.500000" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="2.148760" reflectionamount="-0.062500" bumpscale="0.580000" reflectionbumpscale="0.710000" foamscale="-0.110000" texscale="2.000000" texscrollspeed="0.880000" texrotation="99.999992">
+		<textureplacement>
+			<texture distance="10.0">great_lakes\ground_shoreline1_gl</texture>
+		</textureplacement>
+		<beachtextureplacement>
+			<texture distance="05.0" variance="3">great_lakes\ground_shoreline1_gl</texture>
+			<texture distance="15.0" variance="5">great_lakes\ground_shoreline2_gl</texture>
+			<texture distance="25.0" variance="7">great_lakes\ground_shoreline3_gl</texture>
+			<texture distance="30.0" variance="5">great_lakes\ground_grass1_gl</texture>
+		</beachtextureplacement>
+		<shoreline>
+			<shorelong name="ShorelineFoam" distance="2.0" randomyaw="false"/>
+			<waves bumpmap="terrain\water\waterwavebump" bumpmapcrashposition="0.45" foam1tex="terrain\waves\wavefoam" foam2tex="terrain\waves\wavefoam2" foamalphasidetex="terrain\waves\wavefoam_alpha" foamalphabacktex="terrain\waves\wavefoam_alphaback" minlength="7.48" maxlength="22.06" minconcavelength="3.83" maxconcavelength="6.67" minwidth="2.00" maxwidth="5.00" minheight="0.36" maxheight="0.49" minfadelength="8.00" maxfadelength="14.00" minspeed="0.53" maxspeed="0.69" foamstartnormalizedtime="0.10" foamnormalizedspeed="0.00" foammaxnormalizedwidth="1.00" foam1scrollspeed="0.05" foam2scrollspeed="0.23" foamfadeintime="2.00" foamfadeouttime="2.70" recedetime="3.40" recedeendscale="1.00" recedemotion="true" variance="3.00" minstartdistance="2.68" maxstartdistance="4.12" sectionlength="10.83" wavedensity="2" convexitylimit="-8.20" concavitylimit="8.38"/>
+		</shoreline>
+	</lake>
+	<lake name="Great Plains Pond" iconname="ui\editor\watergreatplainspond" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="great_plains\ground7_gp" bank="great_plains\ground7_gp" outerbank="great_plains\ground7_gp" slope="" color="27 60 110" deepcolor="0 0 0" depth="3.000000" fresnelscale="3.801653" fresnelbias="0.343750" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="2.500000" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="4.049587" reflectionamount="-0.171875" bumpscale="0.230000" reflectionbumpscale="0.270000" foamscale="-0.030000" texscale="2.000000" texscrollspeed="0.000000" texrotation="99.999992">
+		<item starttile="0" endtile="1" chance="0.9" jitter="0.4">RiverPlantsAm</item>
+		<item starttile="0" endtile="1" chance="0.5" jitter="0.6">RiverPlantsAm</item>
+		<item starttile="1" endtile="1" chance="0.5" jitter="0.8">RiverPlantsAm</item>
+		<item starttile="3" endtile="4" chance="0.03" jitter="0.4">DuckFamily</item>
+		<item starttile="2" endtile="9" chance="0.05" jitter="0.4">PropFish</item>
+		<item starttile="6" endtile="9" chance="0.005" jitter="0.4">PropSwan</item>
+		<item starttile="2" endtile="4" chance="0.008" jitter="0.4">PropTurtles</item>
+		<item starttile="0.5" endtile="-1" chance="0.5" jitter="0.5">TreeGreatPlainsGrassGreen</item>
+		<item starttile="-1" endtile="-2" chance="0.02" jitter="0.0">TreeGreatPlains</item>
+	</lake>
+	<lake name="Texas Pond" iconname="ui\editor\watertexaspond" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="carolinas\ground_shoreline1_car" bank="great_plains\pondbank_gp" outerbank="Texas\ground5_tex" slope="" color="78 78 105" deepcolor="0 0 0" depth="3.000000" fresnelscale="1.570248" fresnelbias="0.265625" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-4.214876" alphamaxdepth="2.892562" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="2.479339" reflectionamount="-0.125000" bumpscale="0.230000" reflectionbumpscale="0.520000" foamscale="-0.020000" texscale="2.890000" texscrollspeed="0.000000" texrotation="85.000000">
+		<item starttile="0" endtile="1" chance="0.9" jitter="0.4">RiverPlantsAm</item>
+		<item starttile="0" endtile="1" chance="0.5" jitter="0.6">RiverPlantsAm</item>
+		<item starttile="1" endtile="1" chance="0.5" jitter="0.8">RiverPlantsAm</item>
+		<item starttile="5" endtile="10" chance="0.01" jitter="0.4">DuckFamily</item>
+		<item starttile="2" endtile="9" chance="0.05" jitter="0.4">PropFish</item>
+		<item starttile="6" endtile="9" chance="0.005" jitter="0.4">PropSwan</item>
+		<item starttile="3" endtile="6" chance="0.008" jitter="0.4">PropTurtles</item>
+		<item starttile="0.5" endtile="-1" chance="0.5" jitter="0.5">TreeGreatPlainsGrass</item>
+		<item starttile="-1" endtile="-2" chance="0.02" jitter="0.0">TreeTexasDirt</item>
+	</lake>
+	<lake name="New England Lake" iconname="ui\editor\waternewenglandlake" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="new_england\shoreline1_ne" bank="new_england\shoreline3_ne" outerbank="new_england\shoreline4_ne" slope="" color="31 76 128" deepcolor="0 0 0" depth="3.000000" fresnelscale="3.801653" fresnelbias="0.343750" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="2.500000" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.000000" reflectionamount="0.203125" bumpscale="0.340000" reflectionbumpscale="0.270000" foamscale="-0.030000" texscale="2.000000" texscrollspeed="0.000000" texrotation="99.999992">
+		<item starttile="0" endtile="-1" chance="0.4" jitter="0.4">LakePlantsNe</item>
+		<item starttile="0" endtile="1" chance="0.5" jitter="0.6">LakeWaterPlantsNe</item>
+		<item starttile="0" endtile="-1" chance="0.3" jitter="0.8">LakeRocksNe</item>
+		<item starttile="6" endtile="9" chance="0.005" jitter="0.4">DuckFamily</item>
+		<item starttile="2" endtile="9" chance="0.05" jitter="0.4">PropFish</item>
+		<item starttile="6" endtile="9" chance="0.005" jitter="0.4">PropSwan</item>
+		<item starttile="3" endtile="6" chance="0.005" jitter="0.4">PropTurtles</item>
+		<item starttile="-1" endtile="-3" chance="0.08" jitter="0.0">TreeNewEngland</item>
+	</lake>
+	<lake name="Saguenay Lake" iconname="ui\editor\watersaguenylake" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="saguenay\shoreline1_sag" bank="saguenay\shoreline2_sag" outerbank="saguenay\shoreline3_sag" slope="" color="49 69 125" deepcolor="0 0 0" depth="3.000000" fresnelscale="1.570248" fresnelbias="0.265625" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="2.500000" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="2.066116" reflectionamount="-0.046875" bumpscale="0.230000" reflectionbumpscale="0.520000" foamscale="-0.020000" texscale="2.000000" texscrollspeed="1.750000" texrotation="99.999992">
+		<item starttile="0" endtile="-1" chance="0.4" jitter="0.4">LakePlantsNe</item>
+		<item starttile="0" endtile="1" chance="0.5" jitter="0.6">LakeWaterPlantsNe</item>
+		<item starttile="0" endtile="-1" chance="0.3" jitter="0.8">LakeRocksNe</item>
+		<item starttile="6" endtile="9" chance="0.005" jitter="0.4">DuckFamily</item>
+		<item starttile="2" endtile="9" chance="0.05" jitter="0.4">PropFish</item>
+		<item starttile="6" endtile="9" chance="0.005" jitter="0.4">PropSwan</item>
+		<item starttile="3" endtile="6" chance="0.005" jitter="0.4">PropTurtles</item>
+		<item starttile="-1" endtile="-3" chance="0.08" jitter="0.0">TreeSaguenay</item>
+	</lake>
+	<lake name="Bayou" iconname="ui\editor\waterbayou" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="bayou\ground4_bay" bank="bayou\ground5_bay" outerbank="bayou\ground6_bay" slope="" color="82 61 0" deepcolor="0 0 0" depth="0.750000" fresnelscale="1.148000" fresnelbias="0.130000" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="0.000000" alphamaxdepth="0.909091" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="2.231405" reflectionamount="-0.437500" bumpscale="0.210000" reflectionbumpscale="0.270000" foamscale="-0.030000" texscale="2.070000" texscrollspeed="0.000000" texrotation="99.999992">
+		<item starttile="0" endtile="-4" chance="0.1" jitter="0.4">PlantsBay</item>
+		<item starttile="0" endtile="2" chance="0.1" jitter="0.75">MarshPlantsBay</item>
+		<item starttile="-2" endtile="0" chance="0.04" jitter="0.5">TreeBayouMarsh</item>
+	</lake>
+	<lake name="Amsterdam" iconname="ui\editor\waterlondon" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="Carolinas\ground_shoreline1_car" bank="great_plains\pondbank_gp" outerbank="great_plains\ground7_gp" color="54 114 128" deepcolor="0 0 46" depth="3.0" fresnelscale="1.0" fresnelbias="0.15" coloramount="0.38" reflectionamount="0.4" texscale="2.56" bumpscale="0.5" texscrollspeed="0.0" texrotation="327" reflectionbumpscale="0.24" foamscale="-0.5"/>
+	<lake name="Paris" iconname="ui\editor\waterparis" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="Carolinas\ground_shoreline1_car" bank="great_plains\pondbank_gp" outerbank="great_plains\ground7_gp" color="49 69 125" deepcolor="13 0 11" depth="3.0" fresnelscale="1.48" fresnelbias="0.15" coloramount="0.38" reflectionamount="0.98" texscale="2.56" bumpscale="1.0" texscrollspeed="0.0" texrotation="327" reflectionbumpscale="0.07" foamscale="-0.5"/>
+	<lake name="Berlin" iconname="ui\editor\waterberlin" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="Carolinas\ground_shoreline1_car" bank="great_plains\pondbank_gp" outerbank="great_plains\ground7_gp" color="88 89 34" deepcolor="64 49 49" depth="3.0" fresnelscale="1.24" fresnelbias="0.05" coloramount="1.24" reflectionamount="-0.15" texscale="2.56" bumpscale="0.10" texscrollspeed="0.0" texrotation="327" reflectionbumpscale="1.0" foamscale="-0.5"/>
+	<lake name="Lisbon" iconname="ui\editor\waterlisbon" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="Carolinas\ground_shoreline1_car" bank="great_plains\pondbank_gp" outerbank="great_plains\ground7_gp" color="121 87 10" deepcolor="0 0 0" depth="3.0" fresnelscale="1.9" fresnelbias="-0.32" coloramount="1.0" reflectionamount="0.14" texscale="2.56" bumpscale="0.14" texscrollspeed="0.0" texrotation="327" reflectionbumpscale="0.55" foamscale="-0.5"/>
+	<lake name="London" iconname="ui\editor\waterlondon" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="Carolinas\ground_shoreline1_car" bank="great_plains\pondbank_gp" outerbank="great_plains\ground7_gp" color="49 69 125" deepcolor="0 0 46" depth="3.0" fresnelscale="1.48" fresnelbias="0.15" coloramount="0.38" reflectionamount="0.98" texscale="2.56" bumpscale="0.34" texscrollspeed="0.0" texrotation="327" reflectionbumpscale="0.54" foamscale="-0.5"/>
+	<lake name="Seville" iconname="ui\editor\waterseville" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="Carolinas\ground_shoreline1_car" bank="great_plains\pondbank_gp" outerbank="great_plains\ground7_gp" color="10 55 70" deepcolor="0 0 0" depth="3.0" fresnelscale="0.85" fresnelbias="0.13" coloramount="0.85" reflectionamount="0.13" texscale="2.56" bumpscale="0.3" texscrollspeed="0.0" texrotation="327" reflectionbumpscale="0.32" foamscale="-0.5"/>
+	<lake name="Constantinople" iconname="ui\editor\waterseville" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="Carolinas\ground_shoreline1_car" bank="great_plains\pondbank_gp" outerbank="great_plains\ground7_gp" color="101 81 27" deepcolor="0 0 0" depth="3.0" fresnelscale="1.4" fresnelbias="-0.3" coloramount="1.5" reflectionamount="-0.03" texscale="2.56" bumpscale="0.3" texscrollspeed="0.0" texrotation="327" reflectionbumpscale="0.3" foamscale="-0.5"/>
+	<lake name="Iroquois_HC" iconname="ui\editor\wateriroquois_hc" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="Carolinas\ground_shoreline1_car" bank="great_plains\pondbank_gp" outerbank="great_plains\ground7_gp" color="88 89 34" deepcolor="64 49 49" depth="3.0" fresnelscale="1.24" fresnelbias="0.05" coloramount="1.24" reflectionamount="-0.15" texscale="2.56" bumpscale="0.10" texscrollspeed="0.0" texrotation="327" reflectionbumpscale="1.0" foamscale="-0.5"/>
+	<lake name="Northwest Territory Water" iconname="ui\editor\waterbayou" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="nwterritory\ground_shoreline4_nwt" bank="nwterritory\ground_riverbed_nwt" outerbank="nwterritory\ground_riverbed2_nwt" slope="" color="43 72 36" deepcolor="0 24 98.421" depth="3.000000" fresnelscale="1.818000" fresnelbias="0.109000" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="0.000000" alphamaxdepth="0.909091" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="2.231405" reflectionamount="-0.437500" bumpscale="0.210000" reflectionbumpscale="0.270000" foamscale="-0.030000" texscale="2.700000" texscrollspeed="0.000000" texrotation="99.999992" rivertexcoords="false">
+		<item starttile="0" endtile="-4" chance="0.1" jitter="0.4">PlantsBay</item>
+		<item starttile="0" endtile="2" chance="0.1" jitter="0.75">MarshPlantsBay</item>
+		<item starttile="-2" endtile="0" chance="0.04" jitter="0.5">TreeBayouMarsh</item>
+	</lake>
+	<ocean name="California Coast" iconname="ui\editor\watercaribbeancoast" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="california\groundshore1_cal" bank="california\groundshore3c_cal" outerbank="california\fakecalifgrassmix_cal" slope="" color="9 110 88" deepcolor="0 0 0" depth="3.000000" fresnelscale="0.247934" fresnelbias="0.555556" alphaminvalue="0.000000" alphamaxvalue="0.914063" alphamindepth="0.000000" alphamaxdepth="1.900827" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.842105" reflectionamount="-0.222222" bumpscale="0.660000" reflectionbumpscale="0.710000" foamscale="-0.110000" texscale="1.970000" texscrollspeed="0.000000" texrotation="129.000000">
+		<textureplacement>
+			<texture distance="6" variance="4">california\groundshore1_cal</texture>
+			<texture distance="12" variance="6">california\groundshore3b_cal</texture>
+			<texture distance="18" variance="6">california\groundshore4_cal</texture>
+		</textureplacement>
+		<shoreline>
+			<shoreobj name="ShorelineRockBigNE" mindistance="50.0" maxdistance="70.0" deltawatermin="0.0" deltawatermax="1.0" randomyaw="false"/>
+			<shoreobj name="ShorelineRockSmallNE" mindistance="1" maxdistance="15" deltawatermin="0.0" deltawatermax="0.75" randomyaw="true"/>
+			<shorelong name="ShorelineFoam" distance="2.0" randomyaw="false"/>
+			<shorecliff backcliffdistmin="14.0" backcliffdistmax="20.0" backcliffprob="1.0">
+				<watercliff name="californiacoast2" paintedge="true" lengthmin="0.07" lengthmax="0.15" smoothdistance="10.0" lowheight="1.0" topheight="8.0" noisemin="0.0" noisemax="0.1"/>
+				<backcliff name="californiacoast" paintedge="true" lengthmin="0.07" lengthmax="0.15" smoothdistance="14.0" lowheight="1.0" topheight="4.0" noisemin="0.0" noisemax="0.1"/>
+			</shorecliff>
+			<waves bumpmap="terrain\water\waterwavebump" bumpmapcrashposition="0.50" foam1tex="terrain\waves\wavefoam" foam2tex="terrain\waves\wavefoam2" foamalphasidetex="terrain\waves\wavefoam_alpha" foamalphabacktex="terrain\waves\wavefoam_alphaback" minlength="12.74" maxlength="19.63" minconcavelength="11.53" maxconcavelength="13.96" minwidth="3.34" maxwidth="4.68" minheight="0.35" maxheight="0.41" minfadelength="1.82" maxfadelength="6.61" minspeed="0.85" maxspeed="1.18" foamstartnormalizedtime="0.08" foamnormalizedspeed="0.00" foammaxnormalizedwidth="1.00" foam1scrollspeed="0.00" foam2scrollspeed="0.00" foamfadeintime="0.50" foamfadeouttime="3.31" recedetime="3.39" recedeendscale="1.17" recedemotion="true" variance="3.06" minstartdistance="15.14" maxstartdistance="17.78" sectionlength="15.00" wavedensity="3" convexitylimit="-9.73" concavitylimit="10.11"/>
+		</shoreline>
+	</ocean>
+	<ocean name="Araucania North Coast" iconname="ui\editor\watercaribbeancoast" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="araucania\groundshore1_ara" bank="araucania\ground07_ara" outerbank="araucania\ground07_ara" slope="" color="9 110 88" deepcolor="0 0 0" depth="3.000000" fresnelscale="0.247934" fresnelbias="0.555556" alphaminvalue="0.000000" alphamaxvalue="0.914063" alphamindepth="0.000000" alphamaxdepth="1.900827" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.842105" reflectionamount="-0.222222" bumpscale="0.660000" reflectionbumpscale="0.710000" foamscale="-0.110000" texscale="1.970000" texscrollspeed="0.000000" texrotation="129.000000">
+		<textureplacement>
+			<texture distance="8" variance="4">araucania\groundshore1_ara</texture>
+			<texture distance="12" variance="4">araucania\groundshore2_ara</texture>
+		</textureplacement>
+		<shoreline>
+			<shorelong name="ShorelineFoam" distance="2.0" randomyaw="false"/>
+			<shorecliff backcliffdistmin="14.0" backcliffdistmax="20.0" backcliffprob="0.0">
+				<watercliff name="Araucania North Coast" paintedge="true" lengthmin="0.07" lengthmax="0.30" smoothdistance="10.0" lowheight="2.0" topheight="8.0" noisemin="0.0" noisemax="0.1"/>
+				<backcliff name="Araucania North Coast2" paintedge="true" lengthmin="0.07" lengthmax="0.15" smoothdistance="14.0" lowheight="1.0" topheight="4.0" noisemin="0.0" noisemax="0.1"/>
+			</shorecliff>
+			<waves bumpmap="terrain\water\waterwavebump" bumpmapcrashposition="0.50" foam1tex="terrain\waves\wavefoam" foam2tex="terrain\waves\wavefoam2" foamalphasidetex="terrain\waves\wavefoam_alpha" foamalphabacktex="terrain\waves\wavefoam_alphaback" minlength="12.74" maxlength="19.63" minconcavelength="11.53" maxconcavelength="13.96" minwidth="3.34" maxwidth="4.68" minheight="0.35" maxheight="0.41" minfadelength="1.82" maxfadelength="6.61" minspeed="0.85" maxspeed="1.18" foamstartnormalizedtime="0.08" foamnormalizedspeed="0.00" foammaxnormalizedwidth="1.00" foam1scrollspeed="0.00" foam2scrollspeed="0.00" foamfadeintime="0.50" foamfadeouttime="3.31" recedetime="3.39" recedeendscale="1.17" recedemotion="true" variance="3.06" minstartdistance="15.14" maxstartdistance="17.78" sectionlength="15.00" wavedensity="3" convexitylimit="-9.73" concavitylimit="10.11"/>
+		</shoreline>
+	</ocean>
+	<ocean name="Araucania Central Coast" iconname="ui\editor\watercaribbeancoast" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="araucania\groundshore8_ara" bank="araucania\groundshore8_ara" outerbank="araucania\ground_dirt8_ara" slope="" color="72 92 88" deepcolor="0 0 0" depth="3.000000" fresnelscale="0.247934" fresnelbias="0.555556" alphaminvalue="0.000000" alphamaxvalue="0.914063" alphamindepth="0.000000" alphamaxdepth="1.900827" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.842105" reflectionamount="-0.222222" bumpscale="0.660000" reflectionbumpscale="0.710000" foamscale="-0.110000" texscale="1.970000" texscrollspeed="0.000000" texrotation="129.000000">
+		<shoreline>
+			<shoreobj name="ShorelineRockBigNE" mindistance="50.0" maxdistance="70.0" deltawatermin="0.0" deltawatermax="1.0" randomyaw="false"/>
+			<shoreobj name="ShorelineRockSmallNE" mindistance="1" maxdistance="15" deltawatermin="0.0" deltawatermax="0.75" randomyaw="true"/>
+			<shorelong name="ShorelineFoam" distance="2.0" randomyaw="false"/>
+			<shorecliff backcliffdistmin="14.0" backcliffdistmax="20.0" backcliffprob="0.0">
+				<watercliff name="araucania central coast" paintedge="true" lengthmin="0.07" lengthmax="0.30" smoothdistance="10.0" lowheight="1.0" topheight="10.0" noisemin="0.0" noisemax="0.1"/>
+				<backcliff name="New England Inland" paintedge="true" lengthmin="0.07" lengthmax="0.15" smoothdistance="14.0" lowheight="1.0" topheight="8.0" noisemin="0.0" noisemax="0.1"/>
+			</shorecliff>
+			<waves bumpmap="terrain\water\waterwavebump" bumpmapcrashposition="0.50" foam1tex="terrain\waves\wavefoam" foam2tex="terrain\waves\wavefoam2" foamalphasidetex="terrain\waves\wavefoam_alpha" foamalphabacktex="terrain\waves\wavefoam_alphaback" minlength="12.74" maxlength="19.63" minconcavelength="11.53" maxconcavelength="13.96" minwidth="3.34" maxwidth="4.68" minheight="0.35" maxheight="0.41" minfadelength="1.82" maxfadelength="6.61" minspeed="0.85" maxspeed="1.18" foamstartnormalizedtime="0.08" foamnormalizedspeed="0.00" foammaxnormalizedwidth="1.00" foam1scrollspeed="0.00" foam2scrollspeed="0.00" foamfadeintime="0.50" foamfadeouttime="3.31" recedetime="3.39" recedeendscale="1.17" recedemotion="true" variance="3.06" minstartdistance="15.14" maxstartdistance="17.78" sectionlength="15.00" wavedensity="3" convexitylimit="-9.73" concavitylimit="10.11"/>
+		</shoreline>
+	</ocean>
+	<ocean name="Araucania Southern Coast" iconname="ui\editor\watercaribbeancoast" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="araucania\groundshore5_ara" bank="araucania\groundshore5_ara" outerbank="araucania\groundshore5_ara" slope="" color="72 92 88" deepcolor="0 0 0" depth="3.000000" fresnelscale="0.247934" fresnelbias="0.555556" alphaminvalue="0.000000" alphamaxvalue="0.914063" alphamindepth="0.000000" alphamaxdepth="1.900827" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.842105" reflectionamount="-0.222222" bumpscale="0.660000" reflectionbumpscale="0.710000" foamscale="-0.110000" texscale="1.970000" texscrollspeed="0.000000" texrotation="129.000000">
+		<shoreline>
+			<shoreobj name="ShorelineRockBigNE" mindistance="50.0" maxdistance="70.0" deltawatermin="0.0" deltawatermax="1.0" randomyaw="false"/>
+			<shoreobj name="ShorelineRockSmallNE" mindistance="1" maxdistance="15" deltawatermin="0.0" deltawatermax="0.75" randomyaw="true"/>
+			<shorelong name="ShorelineFoam" distance="2.0" randomyaw="false"/>
+			<shorecliff backcliffdistmin="14.0" backcliffdistmax="20.0" backcliffprob="0.0">
+				<watercliff name="araucania southern coast" paintedge="true" lengthmin="0.07" lengthmax="0.30" smoothdistance="10.0" lowheight="1.0" topheight="10.0" noisemin="0.0" noisemax="0.1"/>
+				<backcliff name="New England Inland" paintedge="true" lengthmin="0.07" lengthmax="0.15" smoothdistance="14.0" lowheight="1.0" topheight="8.0" noisemin="0.0" noisemax="0.1"/>
+			</shorecliff>
+			<waves bumpmap="terrain\water\waterwavebump" bumpmapcrashposition="0.50" foam1tex="terrain\waves\wavefoam" foam2tex="terrain\waves\wavefoam2" foamalphasidetex="terrain\waves\wavefoam_alpha" foamalphabacktex="terrain\waves\wavefoam_alphaback" minlength="12.74" maxlength="19.63" minconcavelength="11.53" maxconcavelength="13.96" minwidth="3.34" maxwidth="4.68" minheight="0.35" maxheight="0.41" minfadelength="1.82" maxfadelength="6.61" minspeed="0.85" maxspeed="1.18" foamstartnormalizedtime="0.08" foamnormalizedspeed="0.00" foammaxnormalizedwidth="1.00" foam1scrollspeed="0.00" foam2scrollspeed="0.00" foamfadeintime="0.50" foamfadeouttime="3.31" recedetime="3.39" recedeendscale="1.17" recedemotion="true" variance="3.06" minstartdistance="15.14" maxstartdistance="17.78" sectionlength="15.00" wavedensity="3" convexitylimit="-9.73" concavitylimit="10.11"/>
+		</shoreline>
+	</ocean>
+	<river name="zFelucia River" iconname="ui\editor\wateramazonriver" bumpmap="terrain\water\ocean1\ocean1" surface="water" bottom="Felucia\Felucia_RiverA" bank="Felucia\Felucia_RiverB" outerbank="Felucia\Felucia_RiverC" slope="" color="151 126 77" deepcolor="0 0 0" depth="2.850000" fresnelscale="3.057851" fresnelbias="0.125000" cliffbanks="zFelucia" alphaminvalue="0.000000" alphamaxvalue="1.000000" alphamindepth="-1.500000" alphamaxdepth="2.500000" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="2.066116" reflectionamount="-0.109375" bumpscale="0.380000" reflectionbumpscale="0.170000" foamscale="-0.190000" texscale="2.890000" texscrollspeed="4.000000" texrotation="225.000000" rivertexcoords="false">
+		<objectplacement curveangle="15.0" distancebetween="30.0" distancevariation="10.0" locktowateredge=""/>
+		<riverline>
+			<riverobj name="underbrushjungle" minsplinedistance="10" maxsplinedistance="15" mincrossdistance="10" maxcrossdistance="20" maxpercenttoshore="0.99" mirror="false" randomyaw="true"/>
+			<riverobj name="RiverRocksSmall" minsplinedistance="30" maxsplinedistance="60" mincrossdistance="15" maxcrossdistance="50" maxpercenttoshore="0.99" mirror="false" randomyaw="false" clusterminnum="4" clustermaxnum="8" clusterspread="3.0"/>
+			<riverobj name="RiverFlow" minsplinedistance="10" maxsplinedistance="20" mincrossdistance="10" maxcrossdistance="20" maxpercenttoshore="0.99" mirror="false" randomyaw="false" clusterminnum="1" clustermaxnum="1"/>
+			<riverobj name="RiverEdgeFlow" minsplinedistance="20" maxsplinedistance="40" mincrossdistance="10" maxcrossdistance="20" maxpercenttoshore="0.99" mirror="false" randomyaw="false" clusterminnum="1" clustermaxnum="1"/>
+			<riverobj name="RiverRocksSmall" shallowslining="upstream" minsplinedistance="-2" maxsplinedistance="3" mincrossdistance="3" maxcrossdistance="5" maxpercenttoshore="0.99" randomyaw="false" clusterminnum="2" clustermaxnum="5" clusterspread="4.0"/>
+			<riverobj name="RiverShallowsPam" shallowslining="fill" minsplinedistance="5.0" maxsplinedistance="8.0" mincrossdistance="5.0" maxcrossdistance="8.0" maxpercenttoshore="0.99" randomyaw="true" clustermaxnum="4"/>
+			<riverobj name="RiverShallowsOri" shallowslining="fill" minsplinedistance="4.0" maxsplinedistance="8.0" mincrossdistance="4.0" maxcrossdistance="8.0" maxpercenttoshore="0.80" randomyaw="false" clusterminnum="1" clustermaxnum="6" clusterspread="4.0"/>
+		</riverline>
+	</river>
+	<ocean name="Lava" iconname="ui\editor\watercaribbeancoast" bumpmap="terrain\water\lake1\lake1" surface="caribbean\ground_shoreline1_crb" bottom="caribbean\ground_shoreline1_crb" bank="caribbean\ground_shoreline2_crb" outerbank="caribbean\ground_shoreline3_crb" slope="" color="255 59 10" deepcolor="0 0 0" depth="3.000000" fresnelscale="0.247934" fresnelbias="0.555556" alphaminvalue="0.000000" alphamaxvalue="0.914063" alphamindepth="0.000000" alphamaxdepth="1.900827" minriverbankheight="0.500000" maxriverbankheight="1.000000" waterplaneoffset="1.000000" coloramount="1.842105" reflectionamount="-0.222222" bumpscale="0.660000" reflectionbumpscale="0.710000" foamscale="-0.110000" texscale="1.970000" texscrollspeed="0.000000" texrotation="129.000000">
+		<textureplacement>
+			<texture distance="12" variance="4">caribbean\ground_shoreline1_crb</texture>
+			<texture distance="16" variance="6">caribbean\seafloor_coral4_crb</texture>
+			<texture distance="20" variance="6">caribbean\seafloor_coral3_crb</texture>
+			<texture distance="28" variance="6">caribbean\seafloor_coral2_crb</texture>
+			<texture distance="34" variance="4">caribbean\seafloor_coral1_crb</texture>
+			<texture distance="48" variance="4">caribbean\seafloor_coral0_crb</texture>
+		</textureplacement>
+		<beachtextureplacement>
+			<texture distance="1.00" variance="1">caribbean\ground_shoreline1_crb</texture>
+			<texture distance="5.00" variance="1">caribbean\ground_shoreline2_crb</texture>
+			<texture distance="8.00" variance="1">caribbean\ground_shoreline2_crb</texture>
+			<texture distance="14.0" variance="4">caribbean\ground4_crb</texture>
+			<texture distance="20.0" variance="4">caribbean\ground3_crb</texture>
+			<texture distance="26.0" variance="4">caribbean\ground2_crb</texture>
+		</beachtextureplacement>
+		<shoreline>
+			<shorelong name="ShorelineFoam" distance="2.0" randomyaw="false"/>
+			<waves bumpmap="terrain\water\waterwavebump" bumpmapcrashposition="0.45" foam1tex="terrain\waves\wavefoam" foam2tex="terrain\waves\wavefoam2" foamalphasidetex="terrain\waves\wavefoam_alpha" foamalphabacktex="terrain\waves\wavefoam_alphaback" minlength="15.00" maxlength="35.00" minconcavelength="8.69" maxconcavelength="12.74" minwidth="2.00" maxwidth="5.00" minheight="0.65" maxheight="0.75" minfadelength="8.00" maxfadelength="14.00" minspeed="0.90" maxspeed="1.20" foamstartnormalizedtime="0.10" foamnormalizedspeed="0.00" foammaxnormalizedwidth="1.00" foam1scrollspeed="0.05" foam2scrollspeed="0.23" foamfadeintime="2.00" foamfadeouttime="2.70" recedetime="3.40" recedeendscale="1.00" recedemotion="true" variance="3.50" minstartdistance="14.00" maxstartdistance="20.00" sectionlength="15.00" wavedensity="3" convexitylimit="-11.35" concavitylimit="11.21"/>
+		</shoreline>
+	</ocean>
+</waterbodies>

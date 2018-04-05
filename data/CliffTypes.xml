@@ -1,0 +1,988 @@
+<!-- converted from XMB to XML -->
+
+<cliffs>
+	<cliffpiecemodels name="Default">
+		<model type="Side" highpoly="terrain\cliffs\straight" lowpoly="terrain\cliffs\lp_straight"/>
+		<model type="OuterCorner" highpoly="terrain\cliffs\bottom_diagonal" lowpoly="terrain\cliffs\lp_bottom_diagonal"/>
+		<model type="InnerCorner" highpoly="terrain\cliffs\top_diagonal" lowpoly="terrain\cliffs\lp_top_diagonal"/>
+	</cliffpiecemodels>
+	<cliff name="Andes" blockland="1" blockwater="0" iconname="ui\editor\cliffAndes">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<topedge>andes\ground25_and</topedge>
+			<top>andes\ground25_and</top>
+			<side>andes\wall_diffuse_02_and</side>
+			<edge>andes\ground16_and</edge>
+			<bottomedge>andes\ground17_and</bottomedge>
+			<piecetex height="1.0" bump="terrain\andes\wall_normal_02_and">terrain\andes\wall_diffuse_02_and</piecetex>
+			<cappiecetex bump="terrain\andes\wall_normal_02_and">terrain\andes\wall_diffuse_02_and</cappiecetex>
+			<displacement>terrain\andes\cliff_displacement_and</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.75" maxedgedist="1.5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.75" maxedgedist="1.5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_grass1" minedgedist="1.0" maxedgedist="1.5" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_grass2" minedgedist="1.0" maxedgedist="1.5" chance="0.03" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+	<cliff name="Andeswall" blockland="1" blockwater="0" iconname="ui\editor\cliffAndeswall">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<topedge>andes\ground07_and</topedge>
+			<top>andes\ground09_and</top>
+			<side>andes\wall_diffuse_02_and</side>
+			<edge>andes\ground08_and</edge>
+			<bottomedge>andes\ground08_and</bottomedge>
+			<piecetex height="1.0" bump="terrain\andes\wall_normal_01_and">terrain\andes\wall_diffuse_01_and</piecetex>
+			<cappiecetex bump="terrain\andes\wall_normal_01_and">terrain\andes\wall_diffuse_01_and</cappiecetex>
+			<displacement>terrain\andes\cliff_displacement_and</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.5" maxedgedist="1.5" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.5" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_grass1" minedgedist="1.0" maxedgedist="1.5" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_grass2" minedgedist="1.0" maxedgedist="1.5" chance="0.03" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+	<cliff name="Amazon" blockland="1" blockwater="0" iconname="ui\editor\cliffAmazon">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<topedge>amazon\cliff_top1_ama</topedge>
+			<top>amazon\ground3_ama</top>
+			<side>amazon\cliff_ama</side>
+			<edge>amazon\ground3_ama</edge>
+			<bottomedge>amazon\ground2_ama</bottomedge>
+			<piecetex height="6.0" bump="terrain\amazon\cliff_bump_ama">terrain\amazon\cliff_ama</piecetex>
+			<cappiecetex bump="terrain\amazon\cliff_bump_ama">terrain\amazon\cliff_ama</cappiecetex>
+			<displacement>terrain\amazon\cliff_displacement_ama</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_jungle_plant1" minedgedist="0.75" maxedgedist="5.0" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_plant3" minedgedist="0.75" maxedgedist="5.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_rock3" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_rock4" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_rock5" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_plant4" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+	<cliff name="Orinoco" blockland="1" blockwater="1" iconname="ui\editor\cliffAmazon">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<topedge>amazon\cliff_top1_ama</topedge>
+			<top>amazon\ground3_ama</top>
+			<side>amazon\cliff_ama</side>
+			<edge>amazon\ground3_ama</edge>
+			<bottomedge>amazon\ground2_ama</bottomedge>
+			<piecetex height="6.0" bump="terrain\amazon\cliff_bump_ama">terrain\amazon\cliff_ama</piecetex>
+			<cappiecetex bump="terrain\amazon\cliff_bump_ama">terrain\amazon\cliff_ama</cappiecetex>
+			<displacement>terrain\amazon\cliff_displacement_ama</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_jungle_plant1" minedgedist="0.75" maxedgedist="5.0" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_plant3" minedgedist="0.75" maxedgedist="5.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_rock3" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_rock4" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_rock5" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_plant4" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+	<cliff name="Bayou" blockland="1" blockwater="0" iconname="ui\editor\cliffBayou">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<topedge>bayou\cliff_top1_bay</topedge>
+			<top>bayou\ground1_bay</top>
+			<side>bayou\ground1_bay</side>
+			<edge>bayou\ground2_bay</edge>
+			<bottomedge>bayou\ground5_bay</bottomedge>
+			<piecetex height="6.0" bump="terrain\amazon\cliff_bump_ama">terrain\bayou\cliff_bay</piecetex>
+			<cappiecetex bump="terrain\amazon\cliff_bump_ama">terrain\amazon\cliff_ama</cappiecetex>
+			<displacement>terrain\amazon\cliff_displacement_ama</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.2" maxedgedist="1.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.2" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_group1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_group2" minedgedist="0.2" maxedgedist="1.0" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_group3" minedgedist="0.2" maxedgedist="1.0" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_grass1" minedgedist="0.5" maxedgedist="5.0" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_grass2" minedgedist="0.5" maxedgedist="5.0" chance="0.03" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="Caribbean" blockland="1" blockwater="0" iconname="ui\editor\cliffCaribbean">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<topedge>caribbean\cliff_top1_crb</topedge>
+			<top>caribbean\ground1_crb</top>
+			<side>amazon\cliff_ama</side>
+			<edge>caribbean\ground1_crb</edge>
+			<bottomedge>caribbean\ground1_crb</bottomedge>
+			<piecetex height="6.0" bump="terrain\amazon\cliff_bump_ama">terrain\amazon\cliff_ama</piecetex>
+			<cappiecetex bump="terrain\amazon\cliff_bump_ama">terrain\amazon\cliff_ama</cappiecetex>
+			<displacement>terrain\amazon\cliff_displacement_ama</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_jungle_plant6" minedgedist="0.75" maxedgedist="5.0" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_plant4" minedgedist="0.75" maxedgedist="5.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_rock2" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_rock3" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_rock6" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_plant11" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_jungle_group1" minedgedist="1.0" maxedgedist="1.0" chance="0.02" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_jungle_group2" minedgedist="0.2" maxedgedist="1.0" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_jungle_group3" minedgedist="0.5" maxedgedist="1.0" chance="0.02" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_jungle_log3" minedgedist="0.2" maxedgedist="1.0" chance="0.02" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_jungle_brush1" minedgedist="1.0" maxedgedist="1.0" chance="0.02" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_jungle_brush3" minedgedist="0.5" maxedgedist="5.0" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_plant9" minedgedist="0.5" maxedgedist="5.0" chance="0.03" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_log2" minedgedist="0.2" maxedgedist="1.0" chance="0.02" randomyaw="false"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="Carolina" blockland="1" blockwater="0" iconname="ui\editor\cliffCarolina">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>carolinas\ground_grass1_car</top>
+			<topedge>carolinas\cliff_top1_car</topedge>
+			<side>new_england\cliff_inland_side_ne</side>
+			<edge>carolinas\ground_shoreline3_car</edge>
+			<bottomedge>carolinas\ground_marsh1_car</bottomedge>
+			<piecetex height="20.0" bump="terrain\carolinas\cliff_diffuse_car_bump">terrain\carolinas\cliff_diffuse_car</piecetex>
+			<cappiecetex bump="terrain\carolinas\cliff_diffuse_car_bump">terrain\carolinas\cliff_diffuse_car</cappiecetex>
+			<displacement>terrain\carolinas\cliff_displacement_car</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+	<cliff name="Carolina Inland" blockland="1" blockwater="0" iconname="ui\editor\cliffCarolinaInland">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>carolinas\ground_grass2_car</top>
+			<topedge>carolinas\cliff_top1_car</topedge>
+			<side>carolinas\ground_grass3_car</side>
+			<edge>carolinas\ground_grass3_car</edge>
+			<bottomedge>carolinas\ground_marsh3_car</bottomedge>
+			<piecetex height="20.0" bump="terrain\carolinas\cliff_diffuse_car_bump">terrain\carolinas\cliff_diffuse_car</piecetex>
+			<cappiecetex bump="terrain\carolinas\cliff_diffuse_car_bump">terrain\carolinas\cliff_diffuse_car</cappiecetex>
+			<displacement>terrain\carolinas\cliff_displacement_car</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.2" maxedgedist="1.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.2" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_group1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_group2" minedgedist="0.2" maxedgedist="1.0" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_group3" minedgedist="0.2" maxedgedist="1.0" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_grass1" minedgedist="0.5" maxedgedist="5.0" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_grass2" minedgedist="0.5" maxedgedist="5.0" chance="0.03" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="Carolina Coast" blockland="1" blockwater="0" iconname="ui\editor\cliffCarolinaCoast">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>carolinas\ground_marsh3_car</top>
+			<topedge>carolinas\cliff_top1_car</topedge>
+			<side>new_england\cliff_inland_side_ne</side>
+			<edge>new_england\cliff_inland_edge_ne</edge>
+			<bottomedge>new_england\shoreline3_ne</bottomedge>
+			<piecetex height="20.0" bump="terrain\new_england\cliff_diffuse_ne_bump">terrain\new_england\cliff_diffuse_ne</piecetex>
+			<cappiecetex bump="terrain\new_england\cliff_diffuse_ne_bump">terrain\new_england\cliff_diffuse_ne</cappiecetex>
+			<displacement>terrain\new_england\cliff_displacement_ne</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+	<cliff name="Cave" blockland="1" blockwater="0" iconname="ui\editor\cliffCave">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>cave\cave_top</top>
+			<topedge>cave\cave_top</topedge>
+			<side>cave\cave_wall</side>
+			<edge>cave\cave_wall</edge>
+			<bottomedge>cave\cave_ground1</bottomedge>
+			<piecetex height="20.0" bump="terrain\cave\cave_wall_bump">terrain\cave\cave_wall</piecetex>
+			<cappiecetex bump="terrain\cave\cave_wall_bump">terrain\cave\cave_wall</cappiecetex>
+			<displacement>terrain\cave\cave_wall_displacement</displacement>
+		</texturing>
+	</cliff>
+	<cliff name="Great Plains" blockland="1" blockwater="0" iconname="ui\editor\cliffgreatplains">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<topedge>texas\cliff_top_tex</topedge>
+			<top>Texas\cliff_top_tex</top>
+			<side>Texas\cliff_edge_tex</side>
+			<edge>Texas\cliff_edge_tex</edge>
+			<bottomedge>great_plains\ground2_gp</bottomedge>
+			<piecetex height="6.0" bump="terrain\texas\cliff_diffuse_tex_bump">terrain\texas\cliff_diffuse_tex</piecetex>
+			<cappiecetex bump="terrain\texas\cliff_diffuse_tex_bump">terrain\texas\cliff_diffuse_tex</cappiecetex>
+			<displacement>terrain\texas\cliff_displacement_tex</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_desert_rock2" minedgedist="1.5" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock3" minedgedist="1.5" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock5" minedgedist="1.5" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock6" minedgedist="1.5" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush4" minedgedist="1.5" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush5" minedgedist="1.5" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus1" minedgedist="1.5" maxedgedist="5.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus2" minedgedist="1.5" maxedgedist="5.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_desert_cliffs_group1" minedgedist=".5" maxedgedist=".5" chance="0.02" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_desert_cliffs_group2" minedgedist=".5" maxedgedist=".5" chance="0.02" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_desert_rock2" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock4" minedgedist="1.0" maxedgedist="2.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock6" minedgedist="1.0" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush1" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush3" minedgedist="1.0" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush6" minedgedist="1.0" maxedgedist="2.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus1" minedgedist="1.5" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus2" minedgedist="1.5" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus3" minedgedist="1.5" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_saguarocactus3" minedgedist="1.5" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_tallgrass2" minedgedist="1.5" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="New England_texgrass" blockland="1" blockwater="0" iconname="ui\editor\cliffnewenglandinland">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>new_england\ground2_tex_b</top>
+			<topedge>new_england\ground1_tex_b</topedge>
+			<side>new_england\cliff_diffuse_ne_b</side>
+			<edge>new_england\cliff_diffuse_ne_b</edge>
+			<bottomedge>new_england\ground1_tex_b</bottomedge>
+			<piecetex height="20.0" bump="terrain\new_england\cliff_diffuse_ne_bump">terrain\new_england\cliff_inland_diffuse_ne</piecetex>
+			<cappiecetex bump="terrain\new_england\cliff_diffuse_ne_bump">terrain\new_england\cliff_inland_diffuse_ne</cappiecetex>
+			<displacement>terrain\new_england\cliff_inland_displacement_ne</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+	<cliff name="New England Inland" blockland="1" blockwater="0" iconname="ui\editor\cliffnewenglandinland">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>new_england\ground2_ne</top>
+			<topedge>new_england\cliff_inland_top_ne</topedge>
+			<side>new_england\cliff_inland_side_ne</side>
+			<edge>new_england\cliff_inland_edge_ne</edge>
+			<bottomedge>new_england\ground3_ne</bottomedge>
+			<piecetex height="20.0" bump="terrain\new_england\cliff_diffuse_ne_bump">terrain\new_england\cliff_inland_diffuse_ne</piecetex>
+			<cappiecetex bump="terrain\new_england\cliff_diffuse_ne_bump">terrain\new_england\cliff_inland_diffuse_ne</cappiecetex>
+			<displacement>terrain\new_england\cliff_inland_displacement_ne</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+	<cliff name="New England Inland Grass" blockland="1" blockwater="0" iconname="ui\editor\cliffnewenglandinland">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>new_england\ground1_ne</top>
+			<topedge>new_england\cliff_inland_top_ne</topedge>
+			<side>new_england\ground1_ne</side>
+			<edge>new_england\ground2_ne</edge>
+			<bottomedge>new_england\ground2_ne</bottomedge>
+			<piecetex height="20.0" bump="terrain\new_england\cliff_diffuse_ne_bump">terrain\new_england\cliff_inland_diffuse_ne</piecetex>
+			<cappiecetex bump="terrain\new_england\cliff_diffuse_ne_bump">terrain\new_england\cliff_inland_diffuse_ne</cappiecetex>
+			<displacement>terrain\new_england\cliff_inland_displacement_ne</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.2" maxedgedist="1.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.2" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_group1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_group2" minedgedist="0.2" maxedgedist="1.0" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_group3" minedgedist="0.2" maxedgedist="1.0" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_grass1" minedgedist="0.5" maxedgedist="5.0" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_grass2" minedgedist="0.5" maxedgedist="5.0" chance="0.03" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="New England" blockland="1" blockwater="0" iconname="ui\editor\cliffnewengland">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>new_england\ground2_ne</top>
+			<topedge>new_england\cliff_inland_top_ne</topedge>
+			<side>new_england\cliff_inland_side_ne</side>
+			<edge>new_england\cliff_inland_edge_ne</edge>
+			<bottomedge>new_england\shoreline3_ne</bottomedge>
+			<piecetex height="20.0" bump="terrain\new_england\cliff_diffuse_ne_bump">terrain\new_england\cliff_diffuse_ne</piecetex>
+			<cappiecetex bump="terrain\new_england\cliff_diffuse_ne_bump">terrain\new_england\cliff_diffuse_ne</cappiecetex>
+			<displacement>terrain\new_england\cliff_displacement_ne</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+	<cliff name="New England snow" blockland="1" blockwater="0" iconname="ui\editor\cliffnewengsnow">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>rockies\groundsnow8_roc</top>
+			<topedge>rockies\groundsnow6_roc</topedge>
+			<side>new_england\cliff_diffuse_ne_snow</side>
+			<edge>rockies\groundsnow6_roc</edge>
+			<bottomedge>rockies\groundsnow7_roc</bottomedge>
+			<piecetex height="20.0" bump="terrain\new_england\cliff_normal_ne_snow">terrain\new_england\cliff_diffuse_ne_snow</piecetex>
+			<cappiecetex bump="terrain\new_england\cliff_normal_ne_snow">terrain\new_england\cliff_diffuse_ne_snow</cappiecetex>
+			<displacement>terrain\new_england\cliff_displacement_ne</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+	<cliff name="Painteddesert" blockland="1" blockwater="0" iconname="ui\editor\cliffpainteddesert">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>painteddesert\pd_ground_diffuse_d</top>
+			<topedge>painteddesert\pd_ground_diffuse_e</topedge>
+			<side>painteddesert\pd_cliff_diffuse_a</side>
+			<edge>painteddesert\pd_ground_diffuse_e</edge>
+			<bottomedge>painteddesert\pd_ground_diffuse_i</bottomedge>
+			<piecetex height="6.0" bump="terrain\painteddesert\pd_cliff_normal_a">terrain\painteddesert\pd_cliff_diffuse_a</piecetex>
+			<cappiecetex bump="terrain\painteddesert\pd_cliff_normal_a">terrain\painteddesert\pd_cliff_diffuse_a</cappiecetex>
+			<displacement>terrain\painteddesert\cliff_displacement_pd</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_desert_bush4" minedgedist=".5" maxedgedist="1" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush5" minedgedist=".5" maxedgedist="1" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus1" minedgedist=".5" maxedgedist="1" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus2" minedgedist=".5" maxedgedist="1" chance="0.05" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_desert_bush1" minedgedist="0.75" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush3" minedgedist="0.75" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush6" minedgedist="0.75" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus1" minedgedist="1" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus2" minedgedist="1" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus3" minedgedist="1" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_saguarocactus3" minedgedist="1" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="Patagonia" blockland="1" blockwater="0" iconname="ui\editor\cliffPatagonia">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>patagonia\ground_dirt3_pat</top>
+			<topedge>patagonia\ground_clifftop_pat</topedge>
+			<side>patagonia\ground_clifftop_pat</side>
+			<edge>patagonia\ground_clifftop_pat</edge>
+			<bottomedge>patagonia\ground_dirt3_pat</bottomedge>
+			<piecetex height="6.0" bump="terrain\patagonia\cliff_dirt_bump_pat">terrain\patagonia\cliff_dirt_pat</piecetex>
+			<cappiecetex bump="terrain\patagonia\cliff_dirt_bump_pat">terrain\patagonia\cliff_dirt_pat</cappiecetex>
+			<displacement>terrain\patagonia\cliff_displacement_pat</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\patagonia\underbrush_brush_a_pat" minedgedist="1.0" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_brush_b_pat" minedgedist="1.25" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_brush_c_pat" minedgedist="1.0" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_a_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_b_pat" minedgedist="0.75" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_e_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_d_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\patagonia\underbrush_brush_c_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.25" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_a_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.15" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_b_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_brush_a_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_c_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.15" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_d_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_e_pat" minedgedist="1.0" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_a_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_b_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.25" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_e_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_d_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="Rocky Mountain2" blockland="1" blockwater="0" iconname="ui\editor\cliffRockyMountain2">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>rockies\groundsnow1_roc</top>
+			<topedge>rockies\groundsnow3_roc</topedge>
+			<side>rockies\groundsnow1_roc</side>
+			<edge>rockies\groundsnow1_roc</edge>
+			<bottomedge>rockies\groundsnow6_roc</bottomedge>
+			<piecetex height="6.0" bump="terrain\rockies\cliff_diffuse_roc_normal">terrain\rockies\cliff_diffuse_roc</piecetex>
+			<cappiecetex bump="terrain\rockies\cliff_diffuse_roc_normal">terrain\rockies\cliff_diffuse_roc</cappiecetex>
+			<displacement>terrain\rockies\cliff_displacement_roc</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_snow_bush1" minedgedist="0.5" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_snow_bush3" minedgedist="1.0" maxedgedist="3.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_snow_grass2" minedgedist="2.0" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_snow_rock1" minedgedist="1.0" maxedgedist="3.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_snow_rock3" minedgedist="1.0" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_snow_rock5" minedgedist="1.0" maxedgedist="3.0" chance="0.1" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_snow_group1" minedgedist=".5" maxedgedist=".5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_snow_group2" minedgedist=".5" maxedgedist=".5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_snow_grass1" minedgedist=".5" maxedgedist=".5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_snow_rock2" minedgedist=".5" maxedgedist=".5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_snow_rock4" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_snow_rock6" minedgedist="1.0" maxedgedist="2.5" chance="0.05" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="Rocky Mountain Edge" blockland="1" blockwater="0" iconname="ui\editor\cliffrockymountain">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>rockies\clifftop_roc</top>
+			<topedge>rockies\clifftop_roc</topedge>
+			<side>rockies\groundsnow1_roc</side>
+			<edge>rockies\groundsnow1_roc</edge>
+			<bottomedge>rockies\groundsnow1_roc</bottomedge>
+			<piecetex height="6.0" bump="terrain\rockies\cliff_diffuse_roc_normal">terrain\rockies\cliff_diffuse_roc</piecetex>
+			<cappiecetex bump="terrain\rockies\cliff_diffuse_roc_normal">terrain\rockies\cliff_diffuse_roc</cappiecetex>
+			<displacement>terrain\rockies\cliff_displacement_roc</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_snow_bush1" minedgedist="0.5" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_snow_bush3" minedgedist="1.0" maxedgedist="3.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_snow_grass2" minedgedist="2.0" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_snow_rock1" minedgedist="1.0" maxedgedist="3.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_snow_rock3" minedgedist="1.0" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_snow_rock5" minedgedist="1.0" maxedgedist="3.0" chance="0.1" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_snow_group1" minedgedist=".5" maxedgedist=".5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_snow_group2" minedgedist=".5" maxedgedist=".5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_snow_grass1" minedgedist=".5" maxedgedist=".5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_snow_rock2" minedgedist=".5" maxedgedist=".5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_snow_rock4" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_snow_rock6" minedgedist="1.0" maxedgedist="2.5" chance="0.05" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="Sonora" blockland="1" blockwater="0" iconname="ui\editor\cliffSanora">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>sonora\ground1clifftop_son</top>
+			<topedge>sonora\cliff_edge_son</topedge>
+			<side>sonora\ground1clifftop_son</side>
+			<edge>sonora\ground1clifftop_son</edge>
+			<bottomedge>sonora\ground2_son</bottomedge>
+			<piecetex height="6.0" bump="terrain\sonora\cliff_diffuse_bump_son">terrain\sonora\cliff_diffuse_son</piecetex>
+			<cappiecetex bump="terrain\sonora\cliff_diffuse_bump_son">terrain\sonora\cliff_diffuse_son</cappiecetex>
+			<displacement>terrain\sonora\cliff_displacement_son</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_desert_rock1" minedgedist="1.5" maxedgedist="3.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock2" minedgedist="1.5" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock3" minedgedist="1.5" maxedgedist="3.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush2" minedgedist="1.5" maxedgedist="2.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush4" minedgedist="1.5" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush5" minedgedist="1.5" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus1" minedgedist="1.5" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_desert_cliffs_group1" minedgedist=".5" maxedgedist=".5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_desert_cliffs_group2" minedgedist=".5" maxedgedist=".5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_desert_cliffs_group3" minedgedist=".5" maxedgedist=".5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_desert_cliffs_group4" minedgedist=".5" maxedgedist=".5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_desert_rock2" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock4" minedgedist="1.0" maxedgedist="2.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock6" minedgedist="1.0" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush1" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush3" minedgedist="1.0" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush6" minedgedist="1.0" maxedgedist="2.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus3" minedgedist="1.5" maxedgedist="5.0" chance="0.05" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="SPC Caribbean" blockland="1" blockwater="0" iconname="ui\editor\cliffSPCCaribbean">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<topedge>caribbean\cliff_top1_crb</topedge>
+			<top>caribbean\ground1_crb</top>
+			<side>amazon\cliff_ama</side>
+			<edge>caribbean\ground1_crb</edge>
+			<bottomedge>caribbean\ground_shoreline2_crb</bottomedge>
+			<piecetex height="6.0" bump="terrain\amazon\cliff_bump_ama">terrain\amazon\cliff_ama</piecetex>
+			<cappiecetex bump="terrain\amazon\cliff_bump_ama">terrain\amazon\cliff_ama</cappiecetex>
+			<displacement>terrain\amazon\cliff_displacement_ama</displacement>
+		</texturing>
+	</cliff>
+	<cliff name="SPC Rocky Cliffs" blockland="1" blockwater="0" iconname="ui\editor\clifftexas">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>sonora\ground1clifftop_son</top>
+			<topedge>sonora\ground1clifftop_son</topedge>
+			<side>texas\cliff_edge_tex</side>
+			<edge>texas\cliff_edge_tex</edge>
+			<bottomedge>california\groundshore1_cal</bottomedge>
+			<piecetex height="6.0" bump="terrain\texas\cliff_diffuse_tex_bump">terrain\texas\cliff_diffuse_tex</piecetex>
+			<cappiecetex bump="terrain\texas\cliff_diffuse_tex_bump">terrain\texas\cliff_diffuse_tex</cappiecetex>
+			<displacement>terrain\texas\cliff_displacement_tex</displacement>
+		</texturing>
+	</cliff>
+	<cliff name="SPC Mountain Pass" blockland="1" blockwater="0" iconname="ui\editor\cliffrockymountain">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>rockies\clifftop_roc</top>
+			<topedge>rockies\clifftop_roc</topedge>
+			<side>rockies\groundsnow1_roc</side>
+			<edge>rockies\groundsnow1_roc</edge>
+			<bottomedge>rockies\groundsnow1_roc</bottomedge>
+			<piecetex height="6.0" bump="terrain\rockies\cliff_diffuse_roc_normal">terrain\rockies\cliff_diffuse_roc</piecetex>
+			<cappiecetex bump="terrain\rockies\cliff_diffuse_roc_normal">terrain\rockies\cliff_diffuse_roc</cappiecetex>
+			<displacement>terrain\rockies\cliff_displacement_roc</displacement>
+		</texturing>
+	</cliff>
+	<cliff name="Texas Grass" blockland="1" blockwater="0" iconname="ui\editor\clifftexasGrass">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>Texas\ground2_tex</top>
+			<topedge>Texas\cliff_top_grass_tex</topedge>
+			<side>Texas\cliff_edge_tex</side>
+			<edge>Texas\cliff_edge_tex</edge>
+			<bottomedge>Texas\ground3_tex</bottomedge>
+			<piecetex height="6.0" bump="terrain\texas\cliff_diffuse_tex_bump">terrain\texas\cliff_grass_diffuse_tex</piecetex>
+			<cappiecetex bump="terrain\texas\cliff_diffuse_tex_bump">terrain\texas\cliff_grass_diffuse_tex</cappiecetex>
+			<displacement>terrain\texas\cliff_displacement_tex</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_desert_rock2" minedgedist="1.5" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock3" minedgedist="1.5" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock5" minedgedist="1.5" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock6" minedgedist="1.5" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush4" minedgedist="1.5" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush5" minedgedist="1.5" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus1" minedgedist="1.5" maxedgedist="5.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus2" minedgedist="1.5" maxedgedist="5.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_desert_cliffs_group1" minedgedist=".5" maxedgedist=".5" chance="0.02" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_desert_cliffs_group2" minedgedist=".5" maxedgedist=".5" chance="0.02" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_desert_rock2" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock4" minedgedist="1.0" maxedgedist="2.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock6" minedgedist="1.0" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush1" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush3" minedgedist="1.0" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush6" minedgedist="1.0" maxedgedist="2.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus1" minedgedist="1.5" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus2" minedgedist="1.5" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus3" minedgedist="1.5" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_saguarocactus3" minedgedist="1.5" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_tallgrass2" minedgedist="1.5" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="Texas" blockland="1" blockwater="0" iconname="ui\editor\clifftexas">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>texas\ground5_tex</top>
+			<topedge>texas\cliff_top_tex</topedge>
+			<side>texas\cliff_edge_tex</side>
+			<edge>texas\cliff_edge_tex</edge>
+			<bottomedge>texas\ground5_tex</bottomedge>
+			<piecetex height="6.0" bump="terrain\texas\cliff_diffuse_tex_bump">terrain\texas\cliff_diffuse_tex</piecetex>
+			<cappiecetex bump="terrain\texas\cliff_diffuse_tex_bump">terrain\texas\cliff_diffuse_tex</cappiecetex>
+			<displacement>terrain\texas\cliff_displacement_tex</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_desert_rock1" minedgedist="1.5" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock2" minedgedist="1.5" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock3" minedgedist="1.5" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock4" minedgedist="1.5" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush4" minedgedist="1.5" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush5" minedgedist="1.5" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus1" minedgedist="1.5" maxedgedist="5.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus2" minedgedist="1.5" maxedgedist="5.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_saguarocactus1" minedgedist="1.5" maxedgedist="5.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_desert_cliffs_group1" minedgedist=".5" maxedgedist=".5" chance="0.02" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_desert_cliffs_group2" minedgedist=".5" maxedgedist=".5" chance="0.02" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_desert_cliffs_group3" minedgedist=".5" maxedgedist=".5" chance="0.02" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_desert_cliffs_group4" minedgedist=".5" maxedgedist=".5" chance="0.02" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_desert_rock2" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock4" minedgedist="1.0" maxedgedist="2.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock6" minedgedist="1.0" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush1" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush3" minedgedist="1.0" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush6" minedgedist="1.0" maxedgedist="2.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus1" minedgedist="1.5" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus2" minedgedist="1.5" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_pearcactus3" minedgedist="1.5" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_saguarocactus1" minedgedist="1.5" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_saguarocactus2" minedgedist="1.5" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="California" blockland="1" blockwater="0" iconname="ui\editor\cliffAmazon">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<topedge>california\madrone_forest2_cal</topedge>
+			<top>california\fakecalifgrassmix_cal</top>
+			<side>california\groundforest_cal</side>
+			<edge>california\groundforest_cal</edge>
+			<bottomedge>california\groundforest2_cal</bottomedge>
+			<piecetex height="6.0" bump="terrain\california\cliff_bump_cal">terrain\california\cliff_cal</piecetex>
+			<cappiecetex bump="terrain\california\cliff_bump_cal">terrain\california\cliff_cal</cappiecetex>
+			<displacement>terrain\california\cliff_displacement_cal</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_fern1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.2" maxedgedist="1.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.2" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_group1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_group2" minedgedist="0.2" maxedgedist="1.0" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_group3" minedgedist="0.2" maxedgedist="1.0" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_grass1" minedgedist="0.5" maxedgedist="5.0" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_grass2" minedgedist="0.5" maxedgedist="5.0" chance="0.03" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="californiacoast" blockland="1" blockwater="0" iconname="ui\editor\cliffSanora">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>california\fakecalifgrassmix_cal</top>
+			<topedge>california\groundforest_cal</topedge>
+			<side>california\fakecalifgrassmix2_cal</side>
+			<edge>california\fakecalifgrassmix2_cal</edge>
+			<bottomedge>california\fakecalifgrassmix2_cal</bottomedge>
+			<piecetex height="6.0" bump="terrain\sonora\cliff_diffuse_bump_son">terrain\sonora\cliff_diffuse_son</piecetex>
+			<cappiecetex bump="terrain\sonora\cliff_diffuse_bump_son">terrain\sonora\cliff_diffuse_son</cappiecetex>
+			<displacement>terrain\sonora\cliff_displacement_son</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_desert_rock2" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock4" minedgedist="1.0" maxedgedist="2.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock6" minedgedist="1.0" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush1" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="californiacoast2" blockland="1" blockwater="0" iconname="ui\editor\cliffSanora">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>california\fakecalifgrassmix_cal</top>
+			<topedge>california\groundforest_cal</topedge>
+			<side>california\groundshore2_cal</side>
+			<edge>california\groundshore2_cal</edge>
+			<bottomedge>california\groundshore2_cal</bottomedge>
+			<piecetex height="4.0" bump="terrain\sonora\cliff_diffuse_bump_son">terrain\sonora\cliff_diffuse_son</piecetex>
+			<cappiecetex bump="terrain\sonora\cliff_diffuse_bump_son">terrain\sonora\cliff_diffuse_son</cappiecetex>
+			<displacement>terrain\sonora\cliff_displacement_son</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="0.5" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_desert_rock2" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock4" minedgedist="1.0" maxedgedist="2.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock6" minedgedist="1.0" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush1" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="Araucania North" blockland="1" blockwater="0" iconname="ui\editor\cliffAndes">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>araucania\ground12_ara</top>
+			<topedge>araucania\ground12_ara</topedge>
+			<side>araucania\ground12_ara</side>
+			<edge>araucania\ground12_ara</edge>
+			<bottomedge>araucania\ground09_ara</bottomedge>
+			<piecetex height="1.0" bump="terrain\araucania\cliff_dirt2_bump_ara">terrain\araucania\cliff_dirt2_ara</piecetex>
+			<cappiecetex bump="terrain\araucania\cliff_dirt2_bump_ara">terrain\araucania\cliff_dirt2_ara</cappiecetex>
+			<displacement>terrain\araucania\cliff_displacement_ara</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="1.5" maxedgedist="5" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="1.5" maxedgedist="5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_group1" minedgedist="1.5" maxedgedist="5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_group2" minedgedist="1.5" maxedgedist="5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_grass1" minedgedist="1.5" maxedgedist="5" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_grass2" minedgedist="1.5" maxedgedist="5" chance="0.03" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+	<cliff name="Araucania North Coast" blockland="1" blockwater="0" iconname="ui\editor\cliffAndes">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>araucania\ground07_ara</top>
+			<topedge>araucania\ground07_ara</topedge>
+			<side>araucania\ground07_ara</side>
+			<edge>araucania\ground07_ara</edge>
+			<bottomedge>araucania\groundshore1_ara</bottomedge>
+			<piecetex height="8.0" bump="terrain\araucania\cliff_coast2_bump_ara">terrain\araucania\cliff_coast2_ara</piecetex>
+			<cappiecetex bump="terrain\araucania\cliff_coast2_bump_ara">terrain\araucania\cliff_coast2_ara</cappiecetex>
+			<displacement>terrain\araucania\cliff_displacement_ara</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="1.5" maxedgedist="5" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="1.5" maxedgedist="5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_group1" minedgedist="1.5" maxedgedist="5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_group2" minedgedist="1.5" maxedgedist="5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_grass1" minedgedist="1.5" maxedgedist="5" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_grass2" minedgedist="1.5" maxedgedist="5" chance="0.03" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_desert_rock2" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock4" minedgedist="1.0" maxedgedist="2.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_rock6" minedgedist="1.0" maxedgedist="1.5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_desert_bush1" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="Araucania North Coast2" blockland="1" blockwater="0" iconname="ui\editor\cliffAndes">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<topedge>araucania\ground08_ara</topedge>
+			<top>araucania\ground09_ara</top>
+			<side>araucania\ground09_ara</side>
+			<edge>araucania\ground09_ara</edge>
+			<bottomedge>araucania\ground07_ara</bottomedge>
+			<piecetex height="6.0" bump="terrain\araucania\cliff_dirt_bump_ara">terrain\araucania\cliff_dirt2_ara</piecetex>
+			<cappiecetex bump="terrain\araucania\cliff_dirt_bump_ara">terrain\araucania\cliff_dirt2_ara</cappiecetex>
+			<displacement>terrain\araucania\cliff_displacement_ara</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush1" minedgedist="1.5" maxedgedist="5" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="1.5" maxedgedist="5" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_group1" minedgedist="1.5" maxedgedist="5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_group2" minedgedist="1.5" maxedgedist="5" chance="0.05" randomyaw="false"/>
+			<object name="terrain\underbrush\underbrush_forest_grass1" minedgedist="1.5" maxedgedist="5" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_grass2" minedgedist="1.5" maxedgedist="5" chance="0.03" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+	<cliff name="Araucania Central" blockland="1" blockwater="0" iconname="ui\editor\cliffPatagonia">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>araucania\ground_grass1_ara</top>
+			<topedge>araucania\ground_grass1_ara</topedge>
+			<side>araucania\ground_grass1_ara</side>
+			<edge>araucania\ground_grass1_ara</edge>
+			<bottomedge>araucania\ground_grass2_ara</bottomedge>
+			<piecetex height="6.0" bump="terrain\araucania\cliff_dirt_bump_ara">terrain\araucania\cliff_dirt_ara</piecetex>
+			<cappiecetex bump="terrain\araucania\cliff_dirt_bump_ara">terrain\araucania\cliff_dirt_ara</cappiecetex>
+			<displacement>terrain\sonora\cliff_displacement_son</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="1.0" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush3" minedgedist="1.25" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_group4" minedgedist="1.0" maxedgedist="5.0" chance="0.15" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_a_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_b_pat" minedgedist="0.75" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_e_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_d_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\underbrush\underbrush_forest_group4" minedgedist="1.0" maxedgedist="1.0" chance="0.25" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_a_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.15" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_b_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush3" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_c_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.15" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_d_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_e_pat" minedgedist="1.0" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_a_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_b_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_e_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_d_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="araucania central coast" blockland="1" blockwater="0" iconname="ui\editor\cliffSanora">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>araucania\ground_dirt2_ara</top>
+			<topedge>araucania\ground_dirt1_ara</topedge>
+			<side>araucania\ground_dirt1_ara</side>
+			<edge>araucania\ground_dirt1_ara</edge>
+			<bottomedge>araucania\groundshore8_ara</bottomedge>
+			<piecetex height="12.0" bump="terrain\araucania\cliff_coast_bump_ara">terrain\araucania\cliff_coast_ara</piecetex>
+			<cappiecetex bump="terrain\araucania\cliff_coast_bump_ara">terrain\araucania\cliff_coast_ara</cappiecetex>
+			<displacement>terrain\sonora\cliff_displacement_son</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="1.0" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush3" minedgedist="1.25" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_group4" minedgedist="1.0" maxedgedist="5.0" chance="0.15" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_a_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+	<cliff name="araucania central coast2" blockland="1" blockwater="0" iconname="ui\editor\cliffSanora">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>araucania\ground_dirt2_ara</top>
+			<topedge>araucania\ground_dirt1_ara</topedge>
+			<side>araucania\ground_dirt1_ara</side>
+			<edge>araucania\ground_dirt1_ara</edge>
+			<bottomedge>araucania\ground_dirt1_ara</bottomedge>
+			<piecetex height="12.0" bump="terrain\araucania\cliff_coast_bump_ara">terrain\araucania\cliff_coast_ara</piecetex>
+			<cappiecetex bump="terrain\araucania\cliff_coast_bump_ara">terrain\araucania\cliff_coast_ara</cappiecetex>
+			<displacement>terrain\sonora\cliff_displacement_son</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_forest_bush2" minedgedist="1.0" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_bush3" minedgedist="1.25" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_forest_group4" minedgedist="1.0" maxedgedist="5.0" chance="0.15" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_a_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+	<cliff name="Araucania South" blockland="1" blockwater="0" iconname="ui\editor\cliffPatagonia">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>araucania\ground_snow5_ara</top>
+			<topedge>araucania\ground_snow5_ara</topedge>
+			<side>araucania\ground_snow3_ara</side>
+			<edge>araucania\ground_snow3_ara</edge>
+			<bottomedge>araucania\ground_snow3_ara</bottomedge>
+			<piecetex height="6.0" bump="terrain\araucania\cliff_dirt_snow_bump_ara">terrain\araucania\cliff_dirt_snow_ara</piecetex>
+			<cappiecetex bump="terrain\araucania\cliff_dirt_snow_bump_ara">terrain\araucania\cliff_dirt_snow_ara</cappiecetex>
+			<displacement>terrain\araucania\cliff_displacement_ara</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\patagonia\underbrush_brush_a_pat" minedgedist="1.0" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_brush_b_pat" minedgedist="1.25" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_brush_c_pat" minedgedist="1.0" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_a_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_b_pat" minedgedist="0.75" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_e_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_d_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\patagonia\underbrush_brush_c_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.25" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_a_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.15" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_b_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_brush_a_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_c_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.15" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_d_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_e_pat" minedgedist="1.0" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_a_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_b_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.25" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_e_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_d_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="Araucania Southern Coast" blockland="1" blockwater="0" iconname="ui\editor\cliffPatagonia">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<top>araucania\ground_snow1_ara</top>
+			<topedge>araucania\groundshore5_ara</topedge>
+			<side>araucania\groundshore5_ara</side>
+			<edge>araucania\groundshore5_ara</edge>
+			<bottomedge>araucania\groundshore5_ara</bottomedge>
+			<piecetex height="6.0" bump="terrain\araucania\cliff_coast3_bump_ara">terrain\araucania\cliff_coast3_ara</piecetex>
+			<cappiecetex bump="terrain\araucania\cliff_coast3_bump_ara">terrain\araucania\cliff_coast3_ara</cappiecetex>
+			<displacement>terrain\araucania\cliff_displacement_ara</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\patagonia\underbrush_brush_a_pat" minedgedist="1.0" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_brush_b_pat" minedgedist="1.25" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_brush_c_pat" minedgedist="1.0" maxedgedist="5.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_a_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_b_pat" minedgedist="0.75" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_e_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_d_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+		<bottomobjects>
+			<object name="terrain\patagonia\underbrush_brush_c_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.25" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_a_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.15" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_b_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_brush_a_pat" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_c_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.15" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_d_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.1" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_group_e_pat" minedgedist="1.0" maxedgedist="3.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_a_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_b_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.25" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_e_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\patagonia\underbrush_rock_d_pat" minedgedist="1.0" maxedgedist="2.0" chance="0.05" randomyaw="true"/>
+		</bottomobjects>
+	</cliff>
+	<cliff name="zFelucia" blockland="1" blockwater="1" iconname="ui\editor\cliffAmazon">
+		<modelset>Default</modelset>
+		<texturing>
+			<bump/>
+			<topedge>Felucia\Felucia_Dirt100</topedge>
+			<top>Felucia\Felucia_Jungle50</top>
+			<side>Felucia\Felucia_cliffside</side>
+			<edge>Felucia\Felucia_Jungle50</edge>
+			<bottomedge>Felucia\Felucia_Dirt100</bottomedge>
+			<piecetex height="6.0" bump="terrain\Felucia\Felucia_cliffside_bumpspec">terrain\Felucia\Felucia_cliffside</piecetex>
+			<cappiecetex bump="terrain\Felucia\Felucia_cliffside_bumpspec">terrain\Felucia\Felucia_cliffside</cappiecetex>
+			<displacement>terrain\amazon\cliff_displacement_ama</displacement>
+		</texturing>
+		<topobjects>
+			<object name="terrain\underbrush\underbrush_jungle_plant1" minedgedist="0.75" maxedgedist="5.0" chance="0.02" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_plant3" minedgedist="0.75" maxedgedist="5.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_rock3" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_rock4" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_rock5" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+			<object name="terrain\underbrush\underbrush_jungle_plant4" minedgedist="1.0" maxedgedist="1.0" chance="0.05" randomyaw="true"/>
+		</topobjects>
+	</cliff>
+</cliffs>

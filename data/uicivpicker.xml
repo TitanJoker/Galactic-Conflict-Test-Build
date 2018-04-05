@@ -1,0 +1,49 @@
+<!-- converted from XMB to XML -->
+
+<layout>
+	<gadget name="CivPicker" type="gadget" background="ui\Star_Wars\civpicker\background" size1024="0 0 1024 768" z="105">
+	<gadget name="CivPickerForeground" type="gadget" background="ui\Star_Wars\civpicker\foreground" size1024="0 0 82 21" z="1000"/>
+		<gadget name="CivPickerDlg" type="gadget" size1024="0 0 1024 768" z="5"/>
+		<gadget name="CivPicker-Frame" type="gadget" size1024="0 0 1024 768" z="10">
+			<gadget name="CivPicker-Label" type="formatText" textcenterhoriz="" textcolor="255 208 0" textfontsize="15" textfont="PregameEntry" size1024="680 67 860 91" z="21">Civilisations*</gadget>
+			<gadget name="CivPicker-CivList" type="gadget" size1024="692 124 864 178" z="21">
+				<gadget name="CivPicker-Entry1" type="button" foreground="" donthilight="" size1024="640 445 945 509" z="22">
+					<gadget name="CivPicker-Entry1-Portrait" type="gadget" background="ui\singleplayer\cpai_avatar_french" sizerel1024="0 0 64 64" z="23"/>
+					<gadget name="CivPicker-Entry1-Name" type="formatText" textfont="ScrollFont" textcenterhoriz="" textcentervert="" textfontsize="16" textcolor="0 0 0" sizerel1024="70 0 190 64" z="24"/>
+					<gadget name="CivPicker-Entry1-Hilight" type="gadget" background="ui\Star_Wars\civpicker\civ_select" sizerel1024="0 0 64 64" z="25">
+						<gadget name="CivPicker-Entry1-Flag" type="gadget" background="ui\ingame\ingame_ui_postgame_flag_british" size1024="0 0 1024 768" z="2"/>
+					</gadget>
+				</gadget>
+				<gadget name="CivPicker-Entry2" type="button" foreground="" donthilight="" size1024="640 511 945 575" z="22">
+					<gadget name="CivPicker-Entry2-Portrait" type="gadget" background="ui\singleplayer\cpai_avatar_french" sizerel1024="0 0 64 64" z="23"/>
+					<gadget name="CivPicker-Entry2-Name" type="formatText" textfont="ScrollFont" textcenterhoriz="" textcentervert="" textfontsize="16" textcolor="0 0 0" sizerel1024="70 0 190 64" z="24"/>
+					<gadget name="CivPicker-Entry2-Hilight" type="gadget" background="ui\Star_Wars\civpicker\civ_select" sizerel1024="0 0 64 64" z="25">
+						<gadget name="CivPicker-Entry2-Flag" type="gadget" background="ui\ingame\ingame_ui_postgame_flag_british" size1024="0 0 1024 768" z="2"/>
+					</gadget>
+				</gadget>
+				<gadget name="CivPicker-Entry3" type="button" foreground="" donthilight="" size1024="640 577 945 641" z="22">
+					<gadget name="CivPicker-Entry3-Portrait" type="gadget" background="ui\singleplayer\cpai_avatar_french" sizerel1024="0 0 64 64" z="23"/>
+					<gadget name="CivPicker-Entry3-Name" type="formatText" textfont="ScrollFont" textcenterhoriz="" textcentervert="" textfontsize="16" textcolor="0 0 0" sizerel1024="70 0 190 64" z="24"/>
+					<gadget name="CivPicker-Entry3-Hilight" type="gadget" background="ui\Star_Wars\civpicker\civ_select" sizerel1024="0 0 64 64" z="25">
+						<gadget name="CivPicker-Entry3-Flag" type="gadget" background="ui\ingame\ingame_ui_postgame_flag_british" size1024="0 0 1024 768" z="2"/>
+					</gadget>
+				</gadget>
+				<gadget name="CivPicker-Slider" type="slider" size1024="894 446 912 641" z="22" sliderbuttons="" slidervertical="" sliderupbtnset="SliderUpBtn" sliderdownbtnset="SliderDownBtn" sliderpipart="ui\file_system\slider_pip_vertical" sliderpiptexturecoords="0 0 1 1" sliderareaart="ui\file_system\slider_background_vertical" background="ui\file_system\slider_background_vertical"/>
+			</gadget>
+			<gadget name="CivPicker-SubmitButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="660 650 760 680" z="11" mouseovertext="$$42150$$" texturecoords="0 0 1 1">
+				$$18465$$OK
+				<stateentry background="ui\core_ui\button_med_normal"/>
+				<stateentry background="ui\core_ui\button_med_clicked"/>
+				<stateentry background="ui\core_ui\button_med_high"/>
+				<stateentry background="ui\core_ui\button_med_disable"/>
+			</gadget>
+			<gadget name="CivPicker-CancelButton" type="stateButton" bevelbutton="" statebuttonuseinternalstates="" textfont="PregameButtons" textfontsize="18" textcolor="255 255 255" textcenterhoriz="" textcentervert="" size1024="780 650 880 680" z="11" mouseovertext="$$42151$$" texturecoords="0 0 1 1">
+				$$18466$$Cancel
+				<stateentry background="ui\core_ui\button_med_normal"/>
+				<stateentry background="ui\core_ui\button_med_clicked"/>
+				<stateentry background="ui\core_ui\button_med_high"/>
+				<stateentry background="ui\core_ui\button_med_disable"/>
+			</gadget>
+		</gadget>
+	</gadget>
+</layout>

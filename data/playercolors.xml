@@ -1,0 +1,52 @@
+<!-- converted from XMB to XML -->
+<!-->
+//NOTE: ORIGINALS
+<playercolors>
+	<player num="0" color1="130 80 0" color2="140 90 10" color3="77 51 0" minimap="114 94 55"/>
+	<player num="1" color1="45 45 245" color2="55 55 255" color3="111 127 178" minimap="50 50 255"/> //Note: Replace to 501st Blue (77 110 151)
+	<player num="2" color1="210 40 40" color2="240 50 50" color3="154 77 77" minimap="255 50 50"/> //Note: Replace to Shocktrooper Red (202 77 73)
+	<player num="3" color1="215 215 30" color2="225 225 40" color3="181 169 90" minimap="255 255 0"/> //Note: Replace to 327 Star Corps Olive (196 154 73)
+	<player num="4" color1="150 15 250" color2="160 25 255" color3="116 86 126" minimap="148 0 197"/> //Note: Replace to Separatist Purple (115 38 61)
+	<player num="5" color1="15 210 80" color2="25 220 90" color3="82 122 82" minimap="0 255 0"/> //Note: Replace to Mandalorian Green (64 107 46)
+	<player num="6" color1="255 150 5" color2="255 160 15" color3="192 142 77" minimap="255 100 0"/> //Note: Replace to 212th Battalion Orange (208 115 38) 
+	<player num="7" color1="150 255 240" color2="160 255 250" color3="99 163 159 " minimap="6 190 179"/> //Note: Replace to Empire Navy (36 39 66)
+	<player num="8" color1="255 190 255" color2="255 200 255" color3="186 117 185" minimap="255 0 253"/> //Note Replace to Wolfpack Grey (130 135 141)
+	<player num="9" color1="0 0 0" color2="10 10 10" color3="35 35 35" minimap="0 0 0"/>
+	<player num="10" color1="180 250 190" color2="190 255 200" color3="202 227 204" minimap="179 251 186"/>
+	<player num="11" color1="80 80 80" color2="90 90 90" color3="124 124 124" minimap="80 80 80"/>
+	<player num="12" color1="255 0 100" color2="255 10 110" color3="174 87 122" minimap="255 0 102"/>
+	<friendorfoeself color1="75 75 230" color2="75 75 230" color3="75 75 230" minimap="0 0 255"/>
+	<friendorfoeally color1="215 215 30" color2="215 215 30" color3="215 215 30" minimap="255 255 0"/>
+	<friendorfoeenemy color1="230 40 40" color2="230 40 40" color3="230 40 40" minimap="255 0 0"/>
+</playercolors>
+
+Others: 
+
+41st Forest (141 184 122)
+Sith Crimson (170 0 0)
+Hutt Gold (252 209 22)
+Black Sun Plum (166 97 89)
+Chiss Ice (158 213 250)
+New Republic Sky (82 96 224)
+Mara's Jade (93 179 138)
+Corporate Paint (221 132 80)
+Bureaucrat Lilac (201 160 220)
+<!-->
+<playercolors>
+	<player num="0" color1="130 80 0" color2="140 90 10" color3="77 51 0" minimap="114 94 55"/>
+	<player num="1" color1="77 110 151" color2="87 120 161" color3="143 192 218" minimap="77 110 151"/>
+	<player num="2" color1="202 77 73" color2="232 87 83" color3="314 97 93" minimap="202 77 73"/>
+	<player num="3" color1="196 154 73" color2="206 164 83" color3="250 220 103" minimap="196 154 73"/>
+	<player num="4" color1="115 38 61" color2="125 48 66" color3="75 111 195" minimap="115 38 61"/>
+	<player num="5" color1="64 107 46" color2="75 117 56" color3="132 25 64" minimap="64 107 46"/>
+	<player num="6" color1="208 115 38" color2="218 125 48" color3="155 143 110" minimap="208 115 38"/>
+	<player num="7" color1="36 39 66" color2="46 49 76" color3="107 139 167 " minimap="36 39 66"/>
+	<player num="8" color1="130 135 141" color2="140 145 151" color3="71 62 81" minimap="130 135 141"/>
+	<player num="9" color1="0 0 0" color2="10 10 10" color3="35 35 35" minimap="0 0 0"/>
+	<player num="10" color1="180 250 190" color2="190 255 200" color3="202 227 204" minimap="179 251 186"/>
+	<player num="11" color1="80 80 80" color2="90 90 90" color3="124 124 124" minimap="80 80 80"/>
+	<player num="12" color1="255 0 100" color2="255 10 110" color3="174 87 122" minimap="255 0 102"/>
+	<friendorfoeself color1="75 75 230" color2="75 75 230" color3="75 75 230" minimap="0 0 255"/>
+	<friendorfoeally color1="215 215 30" color2="215 215 30" color3="215 215 30" minimap="255 255 0"/>
+	<friendorfoeenemy color1="230 40 40" color2="230 40 40" color3="230 40 40" minimap="255 0 0"/>
+</playercolors>
