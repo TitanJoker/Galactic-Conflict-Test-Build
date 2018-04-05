@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<requirements>
+		<requiredfeature type="OS" required="WinXP" />
+		<requiredfeature type="CpuSpeed" required="1400" recommended="1400" />
+		<requiredfeature type="Memory" required="256" recommended="256" />
+		<requiredfeature type="VideoMemory" required="64" recommended="64" />
+		<requiredfeature type="DirectX" required="4.9.0.904" />
+		<requiredfeature type="DiskSpace" required="100" />
+	</requirements>
+	<vendor name="Creative" type="audio">
+		<vendorid id="0x1102" />
+		<vendorid id="0x1274" />
+		<support>
+			<cardid id="0x0002" name="SB Live!" />
+			<cardid id="0x0004" name="SB Audigy" />
+		</support>
+		<support>
+			<cardid id="0x1371" name="Sound Blaster PCI" />
+			<cardid id="0x7002" name="SB Live!" />
+		</support>
+	</vendor>
+	<vendor name="Intel" type="audio">
+		<vendorid id="0x8086" />
+		<support>
+			<cardid id="0x2445" name="Integrated Audio" />
+			<cardid id="0x2485" name="YAMAHA AC-XG" />
+			<cardid id="0x24c5" name="SoundMAX" />
+			<cardid id="0x24d5" name="SoundMAX" />
+					
+		</support>
+	</vendor>
+	<vendor name="C-Media" type="audio">
+		<vendorid id="0x13F6" />
+		<support>
+			<cardid id="0x0111" name="Wave Device" />
+		</support>
+	</vendor>
+	<vendor name="Avance" type="audio">
+		<vendorid id="0x1039" />
+		<support>
+			<cardid id="0x7012" name="AC97" />
+		</support>
+	</vendor>
+	<vendor name="nVidia" type="audio">
+		<vendorid id="0x10de" />
+		<support>
+			<cardid id="0x10b0" name="nForce" />
+		</support>
+	</vendor>
+	<vendor name="Hercules" type="audio">
+		<vendorid id="0x1013" />
+		<support>
+			<cardid id="0x6003" name="Game Theater XP" />
+		</support>
+	</vendor>
+	<vendor name="Diamond" type="audio">
+		<vendorid id="0x125d" />
+		<support>
+			<cardid id="0x1978" name="Monster Sound" />
+		</support>
+	</vendor>
+	<vendor name="Aureal" type="audio">
+		<vendorid id="0x12eb" />
+		<support>
+			<cardid id="0x0001" name="Vortex 8820" />
+		</support>
+	</vendor>
+	<vendor name="3dfx" type="video">
+		<vendorid id="0x1142" />
+		<vendorid id="0x10d9" />
+		<vendorid id="0x121a" />
+		<support>
+			<cardid id="0x0001" name="Voodoo 1" />
+			<cardid id="0x0002" name="Voodoo 2" />
+			<cardid id="0x0003" name="Banshee" />
+			<cardid id="0x0004" name="Banshee" />
+			<cardid id="0x0005" name="Voodoo 3" />
+			<cardid id="0x0007" name="Voodoo 4" />
+			<cardid id="0x0009" name="Voodoo 4 and 5" />
+			<cardid id="0x643d" name="Rush (Alliance)" />
+			<cardid id="0x8626" name="Rush (Macronix)" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="ST Microelectronics" type="video">
+		<vendorid id="0x104a" />
+		<support>
+			<cardid id="0x0010" name="Kyro I-II" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="ATI" type="video">
+		<vendorid id="0x1002" />
+		<support>
+			<cardid id="0x4158" name="Mach 32" />
+			<cardid id="0x4337" name="IGP 340M" />
+			<cardid id="0x4354" name="Mach 64" />
+			<cardid id="0x4358" name="Mach 64" />
+			<cardid id="0x4554" name="Mach 64" />
+			<cardid id="0x4654" name="Mach 64" />
+			<cardid id="0x4742" name="Rage Pro" />
+			<cardid id="0x4744" name="Rage Pro" />
+			<cardid id="0x4747" name="Rage Pro" />
+			<cardid id="0x4749" name="Rage Pro" />
+			<cardid id="0x474c" name="Rage XC" />
+			<cardid id="0x474d" name="Rage XL" />
+			<cardid id="0x474e" name="Rage XC" />
+			<cardid id="0x474f" name="Rage XL" />
+			<cardid id="0x4750" name="Rage Pro" />
+			<cardid id="0x4751" name="Rage Pro" />
+			<cardid id="0x4752" name="Rage XL" />
+			<cardid id="0x4753" name="Rage XC" />
+			<cardid id="0x4754" name="Rage II" />
+			<cardid id="0x4755" name="Rage II+" />
+			<cardid id="0x4756" name="Rage IIC" />
+			<cardid id="0x4757" name="Rage IIC" />
+			<cardid id="0x4758" name="Mach 64" />
+			<cardid id="0x4759" name="Rage IIC" />
+			<cardid id="0x475a" name="Rage IIC" />
+			<cardid id="0x4c42" name="Rage LT Pro" />
+			<cardid id="0x4c44" name="Rage LT Pro" />
+			<cardid id="0x4c47" name="Rage LT" />
+			<cardid id="0x4c49" name="Rage LT Pro" />
+			<cardid id="0x4c50" name="Rage LT Pro" />
+			<cardid id="0x4c51" name="Rage LT Pro" />
+			<cardid id="0x4c45" name="Rage Mobility" />
+			<cardid id="0x4c46" name="Rage Mobility" />
+			<cardid id="0x4c4d" name="Rage Mobility" />
+			<cardid id="0x4c4e" name="Rage Mobility" />
+			<cardid id="0x4c52" name="Rage Mobility" />
+			<cardid id="0x4c53" name="Rage Mobility" />
+			<cardid id="0x4c54" name="Rage Mobility" />
+			<cardid id="0x4d46" name="Rage Mobility 128" />
+			<cardid id="0x4d4c" name="Rage Mobility 128" />
+			<cardid id="0x5041" name="Rage 128 Pro" />
+			<cardid id="0x5042" name="Rage 128 Pro" />
+			<cardid id="0x5043" name="Rage 128 Pro" />
+			<cardid id="0x5044" name="Rage 128 Pro" />
+			<cardid id="0x5045" name="Rage 128 Pro" />
+			<cardid id="0x5046" name="Rage Fury Pro-MAXX" />
+			<cardid id="0x5047" name="Rage 128 Pro" />
+			<cardid id="0x5048" name="Rage 128 Pro" />
+			<cardid id="0x5049" name="Rage 128 Pro" />
+			<cardid id="0x504a" name="Rage 128 Pro" />
+			<cardid id="0x504b" name="Rage 128 Pro" />
+			<cardid id="0x504c" name="Rage 128 Pro" />
+			<cardid id="0x504d" name="Rage 128 Pro" />
+			<cardid id="0x504e" name="Rage 128 Pro" />
+			<cardid id="0x504f" name="Rage 128 Pro" />
+			<cardid id="0x5050" name="Rage 128 Pro" />
+			<cardid id="0x5051" name="Rage 128 Pro" />
+			<cardid id="0x5052" name="Rage 128 Pro" />
+			<cardid id="0x5053" name="Rage 128 Pro" />
+			<cardid id="0x5054" name="Rage 128 Pro" />
+			<cardid id="0x5055" name="Rage 128 Pro" />
+			<cardid id="0x5056" name="Rage 128 Pro" />
+			<cardid id="0x5057" name="Rage 128 Pro" />
+			<cardid id="0x5058" name="Rage 128 Pro" />
+			<cardid id="0x5245" name="Rage 128" />
+			<cardid id="0x5246" name="Rage 128" />
+			<cardid id="0x5247" name="Rage 128" />
+			<cardid id="0x524b" name="Rage 128" />
+			<cardid id="0x524c" name="Rage 128" />
+			<cardid id="0x5345" name="Rage 128" />
+			<cardid id="0x5346" name="Rage 128" />
+			<cardid id="0x5347" name="Rage 128" />
+			<cardid id="0x5348" name="Rage 128" />
+			<cardid id="0x534b" name="Rage 128" />
+			<cardid id="0x534c" name="Rage 128" />
+			<cardid id="0x534d" name="Rage 128" />
+			<cardid id="0x534e" name="Rage 128" />
+			<cardid id="0x5354" name="Mach 64" />
+			<cardid id="0x5446" name="Rage 128 Pro" />
+			<cardid id="0x544c" name="Rage 128 Pro" />
+			<cardid id="0x5452" name="Rage 128 Pro" />
+			<cardid id="0x5453" name="Rage 128 Pro" />
+			<cardid id="0x5454" name="Rage 128 Pro" />
+			<cardid id="0x5455" name="Rage 128 Pro" />
+			<cardid id="0x5654" name="Mach 64" />
+			<cardid id="0x5655" name="Mach 64" />
+			<cardid id="0x5656" name="Mach 64" />
+         <cardid id="0x4237" name="Radeon 7000 IGP" />
+         <cardid id="0x4437" name="Mobility Radeon 7000 IGP" />
+         <cardid id="0x515e" name="ATI ES1000" />
+         <cardid id="0x515f" name="ATI ES1000" />
+         <cardid id="0x5969" name="ATI ES1000" />
+         <cardid id="0x4e54" name="Mobility Fire GL" />
+         <cardid id="0x5464" name="Mobility Fire GL" />
+         <cardid id="0x3154" name="Mobility Fire GL" />
+         <cardid id="0x564a" name="Mobility Fire GL" />
+         <cardid id="0x564b" name="Mobility Fire GL" />
+         <cardid id="0x5d49" name="Mobility Fire GL" />
+         <cardid id="0x4147" name="Mobility Fire GL" />
+         <cardid id="0x4167" name="Mobility Fire GL" />
+         <cardid id="0x4e47" name="Mobility Fire GL" />
+         <cardid id="0x4e4b" name="Mobility Fire GL" />
+         <cardid id="0x4a4d" name="Mobility Fire GL" />
+         <cardid id="0x4a6d" name="Mobility Fire GL" />
+         <cardid id="0x5550" name="Mobility Fire GL" />
+         <cardid id="0x5551" name="Mobility Fire GL" />
+         <cardid id="0x5570" name="Mobility Fire GL" />
+         <cardid id="0x5571" name="Mobility Fire GL" />
+         <cardid id="0x5d50" name="Mobility Fire GL" />
+         <cardid id="0x5d51" name="Mobility Fire GL" />
+         <cardid id="0x5d70" name="Mobility Fire GL" />
+         <cardid id="0x4154" name="Mobility Fire GL" />
+         <cardid id="0x4174" name="Mobility Fire GL" />
+         <cardid id="0x5b64" name="Mobility Fire GL" />
+         <cardid id="0x5b74" name="Mobility Fire GL" />
+         <cardid id="0x3e54" name="Mobility Fire GL" />
+         <cardid id="0x3e74" name="Mobility Fire GL" />
+         <cardid id="0x5e48" name="Mobility Fire GL" />
+         <cardid id="0x5e68" name="Mobility Fire GL" />
+			<feature type="unsupportedvideocard" />
+		</support>
+		<support>
+         <cardid id="0x5a61" name="Radeon Xpress 200" />
+         <cardid id="0x5a62" name="Radeon Xpress 200M" />
+         <cardid id="0x5a63" name="Radeon Xpress 200" />
+         <cardid id="0x5a64" name="Radeon Xpress 200" />
+         <cardid id="0x5a41" name="Radeon Xpress 200" />
+         <cardid id="0x5a42" name="Radeon Xpress 200M" />
+         <cardid id="0x5a43" name="Radeon Xpress 200 Series" />
+         <cardid id="0x5854" name="Radeon Xpress 200 Series" />
+         <cardid id="0x5954" name="Radeon Xpress 200 Series" />
+         <cardid id="0x5955" name="Radeon Xpress 200 Series" />
+         <cardid id="0x5874" name="Radeon Xpress 200 Series" />
+         <cardid id="0x5875" name="Radeon Xpress 200 Series" />
+         <cardid id="0x5a61" name="Radeon Xpress 200" />
+         <cardid id="0x5a62" name="Radeon Xpress 200M" />
+         <cardid id="0x5a63" name="Radeon XPRESS 200" />
+         <cardid id="0x4136" name="Radeon IGP 320" />
+         <cardid id="0x4336" name="Radeon IGP 320M" />
+         <cardid id="0x4136" name="Radeon IGP 320" />
+         <cardid id="0x4336" name="Radeon IGP 320M" />
+         <cardid id="0x4137" name="Radeon IGP 340" />
+         <cardid id="0x4337" name="Radeon IGP 300M Series" />
+		</support>
+		<support>
+			<cardid id="0x4c57" name="Radeon Mobility 7500" />
+			<cardid id="0x4c58" name="Radeon Mobility 7500" />
+			<cardid id="0x4c59" name="Radeon Mobility VE" />
+			<cardid id="0x4c5a" name="Radeon Mobility VE" />
+			<cardid id="0x5144" name="Radeon 7200" />
+			<cardid id="0x5145" name="Radeon" />
+			<cardid id="0x5146" name="Radeon" />
+			<cardid id="0x5147" name="Radeon" />
+			<cardid id="0x5148" name="Radeon FireGL" />
+			<cardid id="0x5157" name="Radeon 7500" />
+			<cardid id="0x5159" name="Radeon 7000 VE" />
+			<cardid id="0x515a" name="Radeon 7000 VE" />
+			<cardid id="0x516c" name="Radeon" />
+		</support>
+		<support>
+			<cardid id="0x514c" name="Radeon 8500" />
+			<cardid id="0x514e" name="Radeon 8500" />
+			<cardid id="0x514f" name="Radeon 8500" />
+			<cardid id="0x4242" name="Radeon 8500 DV" />
+			<cardid id="0x4966" name="Radeon 9000" />
+			<cardid id="0x4c64" name="Radeon Mobility 9000" />
+			<cardid id="0x4c66" name="Radeon Mobility 9000" />
+			<cardid id="0x5961" name="Radeon 9200" />
+			<cardid id="0x5941" name="Radeon 9200" />
+			<cardid id="0x5960" name="Radeon 9200 PRO" />
+			<cardid id="0x5940" name="Radeon 9200 PRO" />
+         <cardid id="0x5834" name="Radeon 9100 IGP" />
+         <cardid id="0x5835" name="Radeon 9100 IGP" />
+         <cardid id="0x7835" name="Radeon 9000 IGP" />
+         <cardid id="0x7834" name="Radeon 9000 Pro IGP Series" />
+         <cardid id="0x514d" name="Radeon 9100 Series" />
+         <cardid id="0x4967" name="Radeon 9000" />
+         <cardid id="0x496e" name="Radeon 9000" />
+         <cardid id="0x496f" name="Radeon 9000" />
+         <cardid id="0x5942" name="Radeon 9000" />
+         <cardid id="0x5961" name="Radeon 9200" />
+         <cardid id="0x5962" name="Radeon 9000" />
+         <cardid id="0x5964" name="Radeon 9200 SE" />
+         <cardid id="0x5d44" name="Radeon 9200 SE" />
+         <cardid id="0x4c67" name="Radeon 9000" />
+         <cardid id="0x4c6f" name="Radeon 9000" />
+         <cardid id="0x5c6e" name="Mobility Radeon 9000" />
+         <cardid id="0x5c41" name="Mobility Radeon 9200" />
+         <cardid id="0x5c43" name="Mobility Radeon 9200" />
+         <cardid id="0x5c61" name="Mobility Radeon 9200" />
+         <cardid id="0x5c63" name="Mobility Radeon 9200" />
+		</support>
+		<support>
+			<cardid id="0x4164" name="Radeon 9500" />
+			<cardid id="0x4144" name="Radeon 9500" />
+			<cardid id="0x4e45" name="Radeon 9500 PRO" />
+			<cardid id="0x4e65" name="Radeon 9500 PRO" />
+			<cardid id="0x4153" name="Radeon 9550" />
+			<cardid id="0x4152" name="Radeon 9600" />
+			<cardid id="0x4172" name="Radeon 9600" />
+			<cardid id="0x4150" name="Radeon 9600 PRO" />
+			<cardid id="0x4170" name="Radeon 9600 PRO" />
+			<cardid id="0x4e45" name="Radeon 9700" />
+			<cardid id="0x4e65" name="Radeon 9700" />
+			<cardid id="0x4e44" name="Radeon 9700 PRO" />
+			<cardid id="0x4e64" name="Radeon 9700 PRO" />
+			<cardid id="0x4e48" name="Radeon 9800 PRO" />
+			<cardid id="0x4e68" name="Radeon 9800 PRO" />
+         <cardid id="0x4146" name="Radeon 9600TX" />
+         <cardid id="0x4166" name="Radeon 9600TX" />
+         <cardid id="0x4E46" name="Radeon 9600TX" />
+         <cardid id="0x4e66" name="Radeon 9600TX" />
+         <cardid id="0x4148" name="Radeon 9800 SE" />
+         <cardid id="0x4149" name="Radeon 9500" />
+         <cardid id="0x4168" name="Radeon 9800 SE" />
+         <cardid id="0x4169" name="Radeon 9500" />
+         <cardid id="0x4e49" name="Radeon 9800" />
+         <cardid id="0x4e69" name="Radeon 9800" />
+         <cardid id="0x4e4a" name="Radeon 9800 XT" />
+         <cardid id="0x4e6a" name="Radeon 9800 XT" />
+         <cardid id="0x4151" name="Radeon 9600" />
+         <cardid id="0x4171" name="Radeon 9600" />
+         <cardid id="0x4173" name="Radeon 9550" />
+         <cardid id="0x4e51" name="Radeon 9600" />
+         <cardid id="0x4e71" name="Radeon 9600" />
+         <cardid id="0x4155" name="Radeon 9650" />
+         <cardid id="0x4175" name="Radeon 9650" />
+         <cardid id="0x4a4e" name="Mobility Radeon 9800" />
+         <cardid id="0x4e52" name="Mobility Radeon 9500" />
+         <cardid id="0x4e56" name="Mobility Radeon 9550" />       
+		</support>
+		<support>
+			<cardid id="0x4e50" name="Radeon Mobility 9600-9700" />
+		</support>
+		<support>
+			<cardid id="0x3E50" name="Radeon X600" />
+			<cardid id="0x5e4b" name="Radeon X700" />
+			<cardid id="0x4a49" name="Radeon X800 AGP" />
+			<cardid id="0x554e" name="Radeon X800 PCI-X" />
+			<cardid id="0x5d57" name="Radeon X800 XT" />
+			<cardid id="0x5d4a" name="Radeon X800 Mobility" />
+			<cardid id="0x554d" name="Radeon X800 XL" />
+			<cardid id="0x5d52" name="Radeon X850" />
+         <cardid id="0x3152" name="Mobility Radeon X300" />
+         <cardid id="0x5460" name="Mobility Radeon X300" />
+         <cardid id="0x3150" name="Mobility Radeon X600" />
+         <cardid id="0x5462" name="Mobility Radeon X600 SE" />
+         <cardid id="0x5b60" name="Radeon X300" />
+         <cardid id="0x5b62" name="Radeon X600" />
+         <cardid id="0x5b70" name="Radeon X300" />
+         <cardid id="0x5b72" name="Radeon X600" />
+         <cardid id="0x3e70" name="Radeon X600" />
+         <cardid id="0x5e4a" name="Radeon X700 XT" />
+         <cardid id="0x5e4c" name="Radeon X700 SE" />
+         <cardid id="0x5e4d" name="Radeon X700" />
+         <cardid id="0x5e4f" name="Radeon X700 SE" />
+         <cardid id="0x5e6a" name="Radeon X700 XT" />
+         <cardid id="0x5e6b" name="Radeon X700 Pro" />
+         <cardid id="0x5e6c" name="Radeon X700 SE" />
+         <cardid id="0x5e6d" name="Radeon X700" />
+         <cardid id="0x5e6f" name="Radeon X700 SE" />
+         <cardid id="0x4a48" name="Radeon X800 Series" />
+         <cardid id="0x4a4a" name="Radeon X800 SE" />
+         <cardid id="0x4a4b" name="Radeon X800 XT" />
+         <cardid id="0x4a4c" name="Radeon X800 Series" />
+         <cardid id="0x4a4f" name="Radeon X800 SE" />
+         <cardid id="0x4a50" name="Radeon X800 Platinum" />
+         <cardid id="0x4a54" name="Radeon X800 VE" />
+         <cardid id="0x4a68" name="Radeon X800 Series" />
+         <cardid id="0x4a69" name="Radeon X800 Pro" />
+         <cardid id="0x4a6a" name="Radeon X800 SE" />
+         <cardid id="0x4a6b" name="Radeon X800 XT" />
+         <cardid id="0x4a6c" name="Radeon X800 Series" />
+         <cardid id="0x4a6f" name="Radeon X800 SE" />
+         <cardid id="0x4a70" name="Radeon X800 Platinum" />
+         <cardid id="0x4a74" name="Radeon X800 VE" />
+         <cardid id="0x5548" name="Radeon X800 Series" />
+         <cardid id="0x5549" name="Radeon X800 Pro" />
+         <cardid id="0x554a" name="Radeon X800 Platinum XT" />
+         <cardid id="0x554b" name="Radeon X800 SE" />
+         <cardid id="0x5568" name="Radeon X800" />
+         <cardid id="0x5569" name="Radeon X800 Pro" />
+         <cardid id="0x556a" name="Radeon X800 Platinum XT" />
+         <cardid id="0x556b" name="Radeon X800 SE" />
+         <cardid id="0x5d77" name="Radeon X800 XT" />
+         <cardid id="0x554d" name="Radeon X800 XL" />
+         <cardid id="0x554f" name="Radeon X800" />
+         <cardid id="0x556d" name="Radeon X800 XL" />
+         <cardid id="0x556f" name="Radeon X800" />
+         <cardid id="0x5d4d" name="Radeon X850 Platinum XT" />
+         <cardid id="0x5d4f" name="Radeon X850 Pro" />
+         <cardid id="0x5d6d" name="Radeon X850 Platinum XT" />
+         <cardid id="0x5d6f" name="Radeon X850 Pro" />
+         <cardid id="0x5d72" name="Radeon X850 XT" />
+         <cardid id="0x4b48" name="Radeon X850 Consumer" />
+         <cardid id="0x4b49" name="Radeon X850 XT" />
+         <cardid id="0x4b4a" name="Radeon X850 SE" />
+         <cardid id="0x4b4b" name="Radeon X850 Pro" />
+         <cardid id="0x4b4c" name="Radeon X850 Platinum XT" />
+         <cardid id="0x4b68" name="Radeon X850 Consumer" />
+         <cardid id="0x4b69" name="Radeon X850 XT" />
+         <cardid id="0x4b6a" name="Radeon X850 SE" />
+         <cardid id="0x4b6b" name="Radeon X850 Pro" />
+         <cardid id="0x4b6c" name="Radeon X850 Platinum XT" />
+         <cardid id="0x5652" name="Mobility Radeon X700" />
+         <cardid id="0x5653" name="Mobility Radeon X700" />
+         <cardid id="0x5d48" name="Mobility Radeon X800 XT" />
+        </support>
+	</vendor>
+	<vendor name="3D Labs" type="video">
+		<vendorid id="0x104c" />
+		<vendorid id="0x10ba" />
+		<vendorid id="0x3d3d" />
+		<vendorid id="0x1048" />
+		<support>
+			<cardid id="0x0001" name="GLiNT 300SX" />
+			<cardid id="0x0002" name="GLiNT 500TX" />
+			<cardid id="0x0003" name="GLiNT" />
+			<cardid id="0x0004" name="Permedia" />
+			<cardid id="0x0005" name="Permedia" />
+			<cardid id="0x0006" name="GLiNT MX" />
+			<cardid id="0x0007" name="Permedia 2" />
+			<cardid id="0x0008" name="GLiNT G1" />
+			<cardid id="0x0009" name="Permedia 2" />
+			<cardid id="0x000b" name="Oxygen Series R3" />
+			<cardid id="0x000d" name="Oxygen Series R4" />
+			<cardid id="0x000e" name="Oxygen Series Gamma2" />
+			<cardid id="0x0100" name="Permedia 2" />
+			<cardid id="0x0301" name="Permedia 2" />
+			<cardid id="0x1004" name="Permedia" />
+			<cardid id="0x3d04" name="Permedia 1" />
+			<cardid id="0x3d07" name="Permedia 2" />
+			<cardid id="0x8901" name="GLiNT" />
+			<cardid id="0x000a" name="Permedia 3" />
+			<cardid id="0x000c" name="Permedia 4" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="SiS" type="video">
+		<vendorid id="0x1039" />
+		<support>
+			<cardid id="0x0204" name="6215" />
+			<cardid id="0x0205" name="6205" />
+			<cardid id="0x0305" name="305" />
+			<cardid id="0x6306" name="530" />
+			<cardid id="0x6326" name="6326" />
+			<cardid id="0x6325" name="650" />
+			<cardid id="0x0325" name="315" />
+			<feature type="UnsupportedVideoCard" />
+		</support>
+		<support>
+			<cardid id="0x0330" name="Xabre" />
+		</support>
+	</vendor>
+	<vendor name="S3" type="video">
+		<vendorid id="0x5333" />
+		<support>
+			<cardid id="0x9102" name="Savage 2000" />
+			<cardid id="0x8a20" name="Savage 3D" />
+			<cardid id="0x8a21" name="Savage 3D S3" />
+			<cardid id="0x8a22" name="Savage 3D S4" />
+			<cardid id="0x8a23" name="Savage 3D S4" />
+			<cardid id="0x8a25" name="Savage4 ProSavage" />
+			<cardid id="0x8a26" name="ProSavage" />
+			<cardid id="0x8c10" name="Savage MX" />
+			<cardid id="0x8c12" name="Savage IX" />
+			<cardid id="0x8c22" name="SuperSavage 128 MX" />
+			<cardid id="0x8c2a" name="SuperSavage 128 IX" />
+			<cardid id="0x8c2b" name="SuperSavage 128 IX DDR" />
+			<cardid id="0x8c2c" name="SuperSavage IX" />
+			<cardid id="0x8c2d" name="SuperSavage IX DDR" />
+			<cardid id="0x8c2e" name="SuperSavage IXC SDR" />
+			<cardid id="0x8c2f" name="SuperSavage IXC DDR" />
+			<cardid id="0x8d04" name="ProSavage" />
+			<cardid id="0x5631" name="Virge" />
+			<cardid id="0x8811" name="Trio 64" />
+			<cardid id="0x8812" name="Trio 64" />
+			<cardid id="0x8814" name="Trio 64 Plus" />
+			<cardid id="0x8815" name="Aurora 128" />
+			<cardid id="0x883d" name="Virge" />
+			<cardid id="0x8880" name="Virge" />
+			<cardid id="0x88c0" name="Virge" />
+			<cardid id="0x88c1" name="Virge" />
+			<cardid id="0x88d0" name="Virge" />
+			<cardid id="0x88d1" name="Virge" />
+			<cardid id="0x88f0" name="Virge" />
+			<cardid id="0x8901" name="Trio 64 DX" />
+			<cardid id="0x8904" name="Trio 3D" />
+			<cardid id="0x8a01" name="Virge DXGX" />
+			<cardid id="0x8a10" name="Virge GX2" />
+			<cardid id="0x8a13" name="Trio3D" />
+			<cardid id="0x8c00" name="Virge MX" />
+			<cardid id="0x8c01" name="Virge MX" />
+			<cardid id="0x8c02" name="Virge MXC" />
+			<cardid id="0x8c03" name="Virge MX" />
+			<cardid id="0x8d01" name="Graphics Twister" />
+			<cardid id="0x8d02" name="Graphics Twister" />
+			<feature type="unsupportedvideocard" />
+		</support>
+		<support>
+			<cardid id="0x8e00" name="DeltaChrome" />
+			<cardid id="0x8e01" name="DeltaChrome" />
+			<cardid id="0x8e02" name="DeltaChrome" />
+			<cardid id="0x8e03" name="DeltaChrome" />
+			<cardid id="0x8e04" name="DeltaChrome" />
+		</support>
+		<support>			
+			<cardid id="0x8e10" name="GammaChrome" />
+		</support>
+	</vendor>
+	<vendor name="XGI" type="video">
+		<vendorid id="0x18ca" />
+		<support>
+			<cardid id="0x0040" name="Volari V8" />
+		</support>
+	</vendor>
+	<vendor name="VIA" type="video">
+		<vendorid id="0x1106" />
+		<support>
+			<cardid id="0x3108" name="VIAS3G UniChrome Pro IGP" />
+			<cardid id="0x3118" name="VIAS3G UniChrome Pro IGP" />
+			<cardid id="0x3122" name="CLE266" />
+			<cardid id="0x7205" name="KM400" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="Matrox" type="video">
+		<vendorid id="0x102b" />
+		<support>
+			<cardid id="0x0518" name="Millennium" />
+			<cardid id="0x0519" name="Millennium" />
+			<cardid id="0x051a" name="Mystique" />
+			<cardid id="0x051b" name="Millennium II" />
+			<cardid id="0x051f" name="Millennium II" />
+			<cardid id="0x0d10" name="Mystique" />
+			<cardid id="0x1000" name="G100 PCI" />
+			<cardid id="0x1001" name="G100 AGP" />
+			<cardid id="0x0520" name="G200 PCI" />
+			<cardid id="0x0521" name="G200 AGP" />
+			<cardid id="0x1525" name="Fusion G450" />
+			<cardid id="0x0525" name="G400-450" />
+			<cardid id="0x2007" name="Mistral" />
+			<cardid id="0x2527" name="G550" />
+			<feature type="unsupportedvideocard" />
+		</support>
+		<support>
+			<cardid id="0x1527" name="Fusion G800" />
+			<cardid id="0x2537" name="Mellennium G750" />
+			<cardid id="0x0527" name="Parhelia" />
+		</support>
+	</vendor>
+	<vendor name="Guillemot" type="video">
+		<vendorid id="0x14Af" />
+		<support>
+			<cardid id="0x5810" name="TNT2" />
+			<cardid id="0x5820" name="TNT2 Ultra" />
+			<cardid id="0x5620" name="TNT2 M64" />
+			<cardid id="0x5020" name="GeForce 256" />
+			<cardid id="0x5008" name="TNT Vanta" />
+			<cardid id="0x4D20" name="TNT2 M64" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="nVidia" type="video">
+		<vendorid id="0x10b4" />
+		<vendorid id="0x12d2" />
+		<vendorid id="0x10de" />
+		<support>
+			<cardid id="0x1b1d" name="Riva 128" />
+			<cardid id="0x0008" name="NV 1" />
+			<cardid id="0x0009" name="NV 1" />
+			<cardid id="0x0010" name="NV 2" />
+			<cardid id="0x0018" name="Riva 128" />
+			<cardid id="0x0019" name="Riva 128 ZX" />
+			<cardid id="0x0020" name="TNT" />
+			<cardid id="0x002c" name="TNT Vanta" />
+			<cardid id="0x002e" name="TNT Vanta" />
+			<cardid id="0x002f" name="TNT Vanta" />
+			<cardid id="0x00a0" name="TNT2 Aladdin" />
+			<cardid id="0x0028" name="TNT2" />
+			<cardid id="0x0029" name="TNT2 Ultra" />
+			<cardid id="0x002a" name="TNT2" />
+			<cardid id="0x002b" name="TNT2" />
+			<cardid id="0x002d" name="TNT2 M64" />
+			<feature type="unsupportedvideocard" />
+		</support>
+		<support>
+			<cardid id="0x0200" name="GeForce3" />
+		</support>
+		<support>
+			<cardid id="0x0100" name="GeForce 256" />
+			<cardid id="0x0101" name="GeForce 256 DDR" />
+			<cardid id="0x0102" name="GeForce 256 Ultra" />
+			<cardid id="0x0103" name="GeForce 256 Quadro" />
+			<feature type="unsupportedvideocard" />
+		</support>
+		<support>
+
+			<cardid id="0x0110" name="GeForce2 MX" />
+			<cardid id="0x0111" name="GeForce2 MX DDR" />
+			<cardid id="0x0112" name="GeForce2 Go" />
+			<cardid id="0x0113" name="GeForce2 Quadro" />
+			<cardid id="0x0150" name="GeForce2" />
+			<cardid id="0x0151" name="GeForce2 Ti" />
+			<cardid id="0x0152" name="GeForce2 Ultra" />
+			<cardid id="0x0153" name="GeForce2 Quadro" />
+			<cardid id="0x0170" name="GeForce4 MX 460" />
+			<cardid id="0x0171" name="GeForce4 MX 440" />
+			<cardid id="0x0172" name="GeForce4 MX 420" />
+			<cardid id="0x0173" name="GeForce4 MX 440SE" />
+			<cardid id="0x0174" name="GeForce4 Go 440" />
+			<cardid id="0x0175" name="GeForce4 Go 420" />
+			<cardid id="0x0176" name="GeForce4 Go 420" />
+			<cardid id="0x0178" name="GeForce4 Quadro4" />
+			<cardid id="0x0179" name="GeForce4 Go 440" />
+			<cardid id="0x017a" name="GeForce4 Quadro 200" />
+			<cardid id="0x017b" name="GeForce4 Quadro 550" />
+			<cardid id="0x0182" name="GeForce4 MX 440SE" />
+			<cardid id="0x0183" name="GeForce4 MX 460" />
+			<cardid id="0x0186" name="GeForce4 MX 448 Go" />
+			<cardid id="0x0187" name="GeForce4 MX 448 Go" />
+			<cardid id="0x018a" name="GeForce4 Quadro 580" />
+			<cardid id="0x018a" name="GeForce4 Quadro 280" />
+			<cardid id="0x018b" name="GeForce4 Quadro 380" />
+			<cardid id="0x01a0" name="nForce" />
+			<cardid id="0x01f0" name="nForce2" />
+			<cardid id="0x0201" name="GeForce3 Ti200" />
+			<cardid id="0x0202" name="GeForce3 Ti500" />
+			<cardid id="0x0203" name="GeForce3 Quadro" />
+			<cardid id="0x0250" name="GeForce4 Ti4600" />
+			<cardid id="0x0251" name="GeForce4 Ti4400" />
+			<cardid id="0x0253" name="GeForce4 Ti4200" />
+			<cardid id="0x0258" name="GeForce4 Quadro 900" />
+			<cardid id="0x0259" name="GeForce4 Quadro 750" />
+			<cardid id="0x025b" name="GeForce4 Quadro 700" />
+			<cardid id="0x0280" name="GeForce4 Ti4800" />
+			<cardid id="0x0281" name="GeForce4 Ti4200-8x" />
+			<cardid id="0x0282" name="GeForce4 Ti4800SE" />
+			<cardid id="0x0286" name="GeForce4 Go 4200" />
+			<cardid id="0x0288" name="GeForce4 Quadro 980" />
+			<cardid id="0x0289" name="GeForce4 Quadro 780" />
+			<cardid id="0x028c" name="GeForce4 Quadro 700" />
+			<cardid id="0x02a0" name="GeForce3 XBOX" />
+		</support>
+		<support>
+			<cardid id="0x0313" name="GeForceFX 5600" />
+			<cardid id="0x0314" name="GeForceFX 5600SE" />
+			<cardid id="0x031a" name="GeForceFX Go5600" />
+			<cardid id="0x031c" name="GeForceFX Go700" />
+			<cardid id="0x0322" name="GeForceFX 5200" />
+			<cardid id="0x0323" name="GeForceFX 5200SE" />
+			<cardid id="0x0324" name="GeForceFX Go5200" />
+			<cardid id="0x0326" name="GeForceFX 5500" />
+		</support>
+		<support>
+			<cardid id="0x0300" name="GeForceFX" />
+			<cardid id="0x0301" name="GeForceFX 5800 Ultra" />
+			<cardid id="0x0302" name="GeForceFX 5800" />
+			<cardid id="0x0308" name="GeForceFX Series" />
+			<cardid id="0x0308" name="GeForceFX 2000" />
+			<cardid id="0x0309" name="GeForceFX Series" />
+			<cardid id="0x0311" name="GeForceFX 5600 Ultra" />
+			<cardid id="0x0312" name="GeForceFX 5600" />
+			<cardid id="0x0318" name="GeForceFX" />
+			<cardid id="0x0319" name="GeForceFX" />
+			<cardid id="0x0321" name="GeForceFX 5200 Ultra" />
+			<cardid id="0x032a" name="GeForceFX 500" />
+			<cardid id="0x032b" name="GeForceFX 500" />
+			<cardid id="0x032f" name="GeForceFX 500" />
+			<cardid id="0x0330" name="GeForceFX 5900 Ultra" />
+			<cardid id="0x0331" name="GeForceFX 5900" />
+			<cardid id="0x0332" name="GeForceFX 5900SE" />
+			<cardid id="0x0333" name="GeForceFX 5950" />
+			<cardid id="0x0338" name="QuadroFX 3000" />
+			<cardid id="0x00F3" name="GeForce 6200" />
+			<cardid id="0x0040" name="GeForceFX 6800" />
+			<cardid id="0x0041" name="GeForceFX 6800" />
+		</support>
+	</vendor>
+	<vendor name="Intel" type="video">
+		<vendorid id="0x8086" />
+		<support>
+			<cardid id="0x7121" name="810" />
+			<cardid id="0x7123" name="810" />
+			<cardid id="0x7125" name="810e" />
+			<cardid id="0x7127" name="810" />
+			<cardid id="0x1132" name="815" />
+			<cardid id="0x7800" name="740" />
+			<cardid id="0x1240" name="752" />
+			<feature type="unsupportedvideocard" />
+		</support>
+		<support>
+			<cardid id="0x3577" name="830" />
+			<cardid id="0x2562" name="845" />
+			<cardid id="0x2572" name="865G" />
+			<feature type="uma" />
+			<feature type="unsupportedvideocard" />
+		</support>
+		<support>
+			<cardid id="0x2582" name="915" />
+			<cardid id="0x2583" name="915G" />
+			<cardid id="0x2593" name="915GM" />
+			<cardid id="0x2773" name="945G" />
+			<cardid id="0x27A3" name="945GM" />
+			<feature type="uma" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="VideoLogic" type="video">
+		<vendorid id="0x1033" />
+		<support>
+			<cardid id="0x0046" name="PowerVR" />
+			<cardid id="0x0067" name="PowerVR2" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="Trident" type="video">
+		<vendorid id="0x1023" />
+		<support>
+			<cardid id="0x8420" name="CyberBlade i7" />
+			<cardid id="0x8820" name="CyberBlade XP" />
+			<cardid id="0x9320" name="Cyber9320" />
+			<cardid id="0x9388" name="Cyber9388" />
+			<cardid id="0x9397" name="Cyber9397" />
+			<cardid id="0x939A" name="Cyber9397 DVD" />
+			<cardid id="0x9440" name="Cyber" />
+			<cardid id="0x9520" name="Cyber9520" />
+			<cardid id="0x9525" name="Cyber9520 DVD" />
+			<cardid id="0x9540" name="CyberBlade E4" />
+			<cardid id="0x9660" name="Cyber9385" />
+			<cardid id="0x9750" name="975" />
+			<cardid id="0x9754" name="9753" />
+			<cardid id="0x9850" name="3D Image" />
+			<cardid id="0x9880" name="Blade 3D" />
+			<cardid id="0x9910" name="CyberBlade XP" />
+			<cardid id="0x9930" name="CyberBlade XPm" />
+			<feature type="unsupportedvideocard" />
+		</support>
+		<support>
+			<cardid id="0x2200" name="Cyber XP5" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="Number Nine" type="video">
+		<vendorid id="0x105d" />
+		<support>
+			<cardid id="0x493d" name="Revolution 3D" />
+			<cardid id="0x5348" name="Revolution IV" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="Silicon Motion" type="video">
+		<vendorid id="0x126f" />
+		<support>
+			<cardid id="0x720 " name="Lynx 3DM" />
+			<cardid id="0x820 " name="Lynx 3D" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="Cirrus" type="video">
+		<vendorid id="0x1013" />
+		<support>
+			<cardid id="0x0038" name="GD7548" />
+			<cardid id="0x00a0" name="GD5430" />
+			<cardid id="0x00a8" name="GD5434" />
+			<cardid id="0x00ac" name="GD5436" />
+			<cardid id="0x00b8" name="GD5446" />
+			<cardid id="0x00bc" name="GD5480" />
+			<cardid id="0x00d0" name="CL5462" />
+			<cardid id="0x00d4" name="GD5464" />
+			<cardid id="0x00d6" name="GD5465" />
+			<cardid id="0x0301" name="GD5446" />
+			<cardid id="0x1100" name="CL6729" />
+			<cardid id="0x1202" name="GD7543" />
+			<cardid id="0x6001" name="CL4610" />
+			<cardid id="0x6003" name="CL4614" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="Rendition" type="video">
+		<vendorid id="0x1163" />
+		<support>
+			<cardid id="0x0001" name="Verite 1000" />
+			<cardid id="0x2000" name="Verite 2100" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="Chromatic" type="video">
+		<vendorid id="0x110b" />
+		<support>
+			<cardid id="0x0004" name="MPact" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="Weitek" type="video">
+		<vendorid id="0x100e" />
+		<support>
+			<cardid id="0x9001" name="P9000" />
+			<cardid id="0x9100" name="P9100" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="Compaq" type="video">
+		<vendorid id="0x0e11" />
+		<support>
+			<cardid id="0x3032" name="QVision" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="Digital" type="video">
+		<vendorid id="0x1011" />
+		<support>
+			<cardid id="0x0004" name="TGA" />
+			<cardid id="0x000d" name="TGA2" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="NeoMagic" type="video">
+		<vendorid id="0x10c8" />
+		<support>
+			<cardid id="0x0001" name="128" />
+			<cardid id="0x0002" name="128" />
+			<cardid id="0x0003" name="128ZV" />
+			<cardid id="0x0004" name="128XD" />
+			<cardid id="0x0005" name="256AV" />
+			<cardid id="0x0006" name="256ZX" />
+			<cardid id="0x0016" name="256XL" />
+			<cardid id="0x0025" name="256AV" />
+			<cardid id="0x0083" name="128ZV" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+	<vendor name="Tseng Labs" type="video">
+		<vendorid id="0x100c" />
+		<support>
+			<cardid id="0x3202" name="ET4000" />
+			<cardid id="0x3205" name="ET4000" />
+			<cardid id="0x3206" name="ET4000" />
+			<cardid id="0x3207" name="ET4000" />
+			<cardid id="0x3208" name="ET6000" />
+			<cardid id="0x4702" name="ET6300" />
+			<feature type="unsupportedvideocard" />
+		</support>
+	</vendor>
+</config>

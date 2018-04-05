@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<application
+  Title="Age of Empires III: The Asian Dynasties"
+  ID="A12B41B6-E086-42b6-A158-92E82DEA7498"
+  CompanyName="Microsoft"
+>
+  <entrypoint 
+    ID="A12B41B6-E086-42b6-A158-92E82DEA7498"
+	  Run="%ProgramFiles(x86)%\Common Files\Microsoft Games\Age of Empires III - The Asian Dynasties\age3ymc.lnk"
+	  ImageUrl="age3ymcLogo.bmp"
+	  Title="Age of Empires III - The Asian Dynasties"
+	  Description="Play Age of Empires III - The Asian Dynasties"
+  >	   
+    <category category="Services\Games">
+      <capabilitiesRequired
+        directX="True"
+        audio="False" 
+        video="False" 
+        intensiveRendering="True"
+        console="False"
+      />
+    </category>
+  </entrypoint>
+</application>
