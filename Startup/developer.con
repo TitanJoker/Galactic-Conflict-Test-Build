@@ -1,0 +1,125 @@
+// developer.con
+//
+
+map("control-shift-d", "root", "toggleDeveloper")
+
+//////////////////////////
+//  developer mode      //
+//////////////////////////
+map("control-shift-F1", "developer", "playerOfSelectedUnit")
+
+map ("control-i", "developer", "gadgetToggle(\"UnitStatsDialog\")")
+
+map ("control-b", "developer", "renderCycleBoundingBoxMode")
+map ("f2", "developer", "display")
+map ("alt-f2", "developer", "displayType")
+map ("alt-shift-f2", "developer", "displayType(-2)")
+
+// Enabled all these for E32006
+map ("control-n", "developer", "jumpToNextCampaignNode")
+map ("control-p", "developer", "jumpToPreviousCampaignNode")
+map ("control-r", "developer", "restartCurrentGame")
+map ("control-n", "cinematic", "jumpToNextCampaignNode")
+map ("control-p", "cinematic", "jumpToPreviousCampaignNode")
+map ("control-r", "cinematic", "restartCurrentGame")
+
+map ("control-q", "developer", "mpCommand(\"rateToggle\")")
+map ("control-w", "developer", "renderWireframe")
+map ("control-alt-b", "developer", "renderBackfaceCull")
+map ("alt-control-n", "developer", "configToggle(\"drawSurfaceNormals\")")
+map ("shift-control-n", "developer", "configToggle(\"drawVertexNormals\")")
+map ("shift-g", "developer", "gameSpeedMult(2.0)")
+map ("control-shift-g", "developer", "gameSpeedMult(0.5)")
+map ("f12", "developer", "loadQuickCamera")
+map ("shift-f12", "developer", "saveQuickCamera")
+map ("p", "developer", "playerIncCurrent")
+map ("shift-p", "developer", "playerDecCurrent")
+map ("f5", "developer", "gadgetToggle(\"APerfDialog\")")
+map ("f6", "developer", "blackmap")
+map ("f7", "developer", "fog")
+map ("control-alt-d", "developer", "toggleDebugUI")
+map ("control-alt-i", "aidebug", "AIDebugInfoToggle")
+map ("control-a", "developer", "incrementPlayerAges")
+map ("control-h", "developer", "toggleHomeCityView")
+
+map ("control-alt-o", "developer", "renderObstructionManager")
+map ("alt-p", "developer", "pathShow")
+map ("alt-shift-p", "developer", "configToggle(\"showLowLevelPather\")")
+map ("control-alt-q", "developer", "configToggle(\"renderSquadPlotter\")")
+map ("alt-u", "developer", "configToggle(\"showUnits\")")
+map ("alt-i", "developer", "unitIncRenderIDStyle")
+map ("alt-g", "developer", "renderUnitGroups")
+map ("control-alt-e", "developer", "renderUnitGrouper")
+map ("alt-b", "developer", "renderBorders")
+//map ("control-alt-r", "developer", "renderAreas")
+map ("control-alt-r", "developer", "reloadSelected")
+//map ("alt-h", "developer", "renderRotateHPBars")
+//map ("control-alt-t", "developer", "areaCalculateTileAreas(100.0)")
+//map ("control-alt-w", "developer", "areaIncrementAreaToRender")
+//map ("alt-m", "developer", "specialEffect(0)")
+map ("alt-h", "developer", "uiToggleDebugUnitData")
+map ("alt-shift-d", "developer", "gadgetToggle(\"XSDebugger\")")
+map ("alt-l", "developer", "doSingleUpdate(1)")
+map ("alt-shift-l", "developer", "doSingleUpdate(5)")
+map ("alt-v", "root", "toggleDeveloper")
+map ("alt-q", "aidebug", "AIDebugInfoToggle")
+map ("alt-w", "aidebug", "uiShowAIDebugInfoKBUnit")
+map ("control-alt-w", "aidebug", "uiShowAIDebugInfoKBUnit(1)")
+
+// Toggle camera limiting
+map("control-alt-c", "developer", "cameraLimit")
+
+// Get to a camera limit valid viewing angle but with camera limit off.
+map("alt-shift-c", "developer", "cameraLimit(1) cameraLimit(0)")
+
+// combat comparisoN
+map("alt-n", "developer", "gadgetToggle(\"CCDialog\")")
+
+// jce 2/12/2002 -- restore some of the freaky camera keys/move them into developer context so
+// the can override other hotkeys in developer mode.
+map("+control-pagedown", "developer", "cameraDown")
+map("+control-pageup", "developer", "cameraUp")
+map("+a", "developer", "cameraPitchForward")
+map("+z", "developer", "cameraPitchBackward")
+
+// Unit debugging.
+map("alt-f1", "developer", "configToggle(\"showSelectedUnitLOS\")")
+map("alt-shift-f1", "developer", "configToggle(\"showUnitLOS\")")
+map("alt-f3", "developer", "unitToggleShowSelectedActionRange(\"rangedattack\")")
+map("alt-shift-f3", "developer", "unitToggleShowActionRange(\"rangedattack\")")
+
+// Animation Controller
+map ("control-alt-v", "developer", "unitIncVariation(-1)")
+
+map ("alt-o", "developer", "gadgetToggleIfNotMP(\"gameprotopalette\")")
+
+map ("alt-e", "developer", "modeToggleBetweenIfNotMP(\"Editor\", \"SinglePlayer\")")
+//map ("control-alt-g", "developer", "subModeToggleBetweenIfNotMP(\"Simulation\", \"Editor\", \"SinglePlayer\")")
+map ("control-s", "developer", "saveScenario(\"QuickSave\")")
+map ("control-l", "developer", "loadScenario(\"QuickSave\")")
+
+//Robust rollover
+// Restore this after E32006
+//map ("control-r", "developer", "configToggle(\"robustRollover\")")
+
+map ("alt-m", "developer", "toggleAVIRecord(30, true)")
+
+//camera mappings for more control
+map("+alt-numpad1", "world", "cameraWorldBackwardLeft")
+map("+alt-numpad2", "world", "cameraWorldBackward")
+map("+alt-numpad3", "world", "cameraWorldBackwardRight")
+map("+alt-numpad4", "world", "cameraLeft")
+map("+alt-numpad6", "world", "cameraRight")
+map("+alt-numpad7", "world", "cameraWorldForwardLeft")
+map("+alt-numpad8", "world", "cameraWorldForward")
+map("+alt-numpad9", "world", "cameraWorldForwardRight")
+map("+alt-numpadplus", "world", "cameraForward")
+map("+alt-=", "world", "cameraForward")
+map("+alt-numpadminus", "world", "cameraBackward")
+map("+alt--", "world", "cameraBackward")
+map("+alt-pagedown", "world", "cameraDown")
+map("+alt-pageup", "world", "cameraUp")
+map("+alt-control-arrowup", "world", "cameraPitchForward")
+map("+alt-control-arrowdown", "world", "cameraPitchBackward")
+map("+alt-control-arrowright", "world", "cameraYawRight")
+map("+alt-control-arrowleft", "world", "cameraYawLeft")

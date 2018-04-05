@@ -1,0 +1,298 @@
+// editor.con
+// 
+
+///////////////////////////////////////////////
+//  scenario editing / editing key mappings  //
+///////////////////////////////////////////////
+
+// editing UI
+map ("control-shift-s", "editor", "saveGame(\"QuickSavegame\")")
+map ("control-s", "editor", "uiSaveScenarioBrowser")
+map ("control-l", "editor", "uiScenarioLoad")
+
+//brush size changing mappings
+map ("1", "editor", "uiChangeBrushSize(1)")
+map ("2", "editor", "uiChangeBrushSize(2)")
+map ("3", "editor", "uiChangeBrushSize(3)")
+map ("4", "editor", "uiChangeBrushSize(4)")
+map ("5", "editor", "uiChangeBrushSize(5)")
+map ("6", "editor", "uiChangeBrushSize(6)")
+map ("7", "editor", "uiChangeBrushSize(7)")
+map ("8", "editor", "uiChangeBrushSize(8)")
+map ("9", "editor", "uiChangeBrushSize(9)")
+map ("0", "editor", "uiChangeBrushSize(10)")
+map ("alt-mousez", "editor", "uiScrollBrushSize")
+
+//New Scenario Editor hotkeys
+map ("control-z",  "editor", "undo")
+map ("control-y",  "editor", "redo")
+map ("control-c",  "editor", "uiCopyToClipboard")
+map ("control-v",  "editor", "editMode(\"unitpaste\")")
+
+map ("e",  "editor", "editmode(\"elevation\")")
+map ("v",  "editor", "editmode(\"elevationsample\")")
+map ("s",  "editor", "editmode(\"smooth\")")
+map ("g",  "editor", "editmode(\"roughen\")")
+map ("w",  "editor", "editmode(\"paintwater\")")
+map ("c",  "editor", "editmode(\"paintCliff\")")
+map ("f",  "editor", "editmode(\"paintforest\")")
+map ("r",  "editor", "editMode(\"createRiver\")")
+map ("u",  "editor", "editmode(\"moveunit\")")
+map ("t",  "editor", "editmode(\"Triggers\")")
+map ("i",  "editor", "editmode(\"CameraTracks\")")
+map ("l",  "editor", "editMode(\"PaintLand\")")
+map ("shift-l",  "editor", "editMode(\"Paint\")")
+map ("o",  "editor", "editMode(\"PlaceUnit\")")
+map ("alt-r",      "editor", "renderObstructionManager")
+map ("alt-c",      "editor", "cameraRotate")
+map ("b",  "editor", "gadgetToggle(\"BrushSettingsDialog\")")
+
+//brush type changing functions
+map ("[", "editor", "uiChangeBrushType(\"Circular\")")
+map ("]", "editor", "uiChangeBrushType(\"Rectangular\")")
+
+// brush drag size functions
+map ("control-mouse1down", "editor", "uiTerrainSelection(0)")
+map ("control-mouse1up", "editor", "uiTerrainSelection(1)")
+
+//uniform height changes
+//map ("control-,", "editor", "uiUniformRaiseElevation()")
+//map ("control-.", "editor", "uiUniformLowerElevation()")
+
+// elevation
+map ("mouse1down", "elevation", "uiRaiseElevation(0)")
+map ("mouse1up", "elevation", "uiRaiseElevation(1)")
+map ("mouse2down", "elevation", "uiLowerElevation(0)")
+map ("mouse2up", "elevation", "uiLowerElevation(1)")
+map ("esc", "elevation", "editMode(\"none\")")
+
+// elevation by sample
+map ("mouse1down", "elevationsample", "uiChangeElevationToSample(0)")
+map ("mouse1up", "elevationsample", "uiChangeElevationToSample(1)")
+map ("mouse2down", "elevationsample", "uiSampleElevationAtPointer")
+map ("mouse2up", "elevationsample", "")
+map ("esc", "elevationsample", "editMode(\"none\")")
+
+// roughen
+map ("mouse1down", "roughen", "uiRoughen(0)")
+map ("mouse1up", "roughen", "uiRoughen(1)")
+map ("esc", "roughen", "editMode(\"none\")")
+
+// deleteunits
+map ("mouse1down", "deleteunits", "uiDeleteUnits(0)")
+map ("mouse1up", "deleteunits", "uiDeleteUnits(1)")
+map ("esc", "deleteunits", "editMode(\"none\")")
+
+// paint by sample
+map ("mouse1down", "paintsample", "uiPaintTerrainToSample(0)")
+map ("mouse1up", "paintsample", "uiPaintTerrainToSample(1)")
+map ("mouse2down", "paintsample", "uiSampleTerrainAtPointer")
+map ("mouse2up", "paintsample", "")
+map ("esc", "paintsample", "editMode(\"none\")")
+
+
+// copy and paste
+map ("mouse1down", "copy", "uiTerrainSelection(0)")
+map ("mouse1up",   "copy", "uiTerrainSelection(1)")
+map ("control-v",  "copy", "editMode(\"TerrainPaste\") ")
+map ("mouse2down", "copy", "")
+map ("mouse2up",   "copy", "")
+map ("esc", "copy", "editMode(\"none\")")
+
+map ("control-v",  "definegrouping", "editMode(\"fullpaste\")")
+map ("mouse1down", "definegrouping", "uiTerrainSelection(0)")
+map ("mouse1up",   "definegrouping", "uiTerrainSelection(1)")
+map ("mouse2down", "definegrouping", "")
+map ("mouse2up",   "definegrouping", "")
+map ("esc", "definegrouping", "editMode(\"none\")")
+
+
+map ("mouse1down", "TerrainPaste", "")
+map ("mouse1up",   "TerrainPaste", "uiPasteFromClipboard")
+map ("mouse2down", "TerrainPaste", "")
+map ("mouse2up",   "TerrainPaste", "editMode(\"copy\")")
+map ("esc",        "TerrainPaste", "editMode(\"none\")")
+
+map ("mouse1down", "UnitPaste", "")
+map ("mouse1up",   "UnitPaste", "uiPasteFromClipboard")
+map ("mouse2down", "UnitPaste", "")
+map ("mousez",     "UnitPaste", "uiRotateClipboard")
+map ("esc",        "UnitPaste", "editMode(\"none\")")
+
+
+//handle editing list gadgets
+map ("esc", "list", "editMode(\"none\")")
+
+// Sun. orientation keys
+map ("+y", "editor", "sunIncreaseInclination")
+map ("+shift-y", "editor", "sunDecreaseInclination")
+map ("+alt-y", "editor", "sunIncreaseRotation")
+map ("+alt-shift-y", "editor", "sunDecreaseRotation")
+
+// Player shifting keys
+map ("control-f1", "editor", "player(1)")
+map ("control-f2", "editor", "player(2)")
+map ("control-f3", "editor", "player(3)")
+map ("control-f4", "editor", "player(4)")
+map ("control-f5", "editor", "player(5)")
+map ("control-f6", "editor", "player(6)")
+map ("control-f7", "editor", "player(7)")
+map ("control-f8", "editor", "player(8)")
+map ("control-f9", "editor", "player(9)")
+map ("control-f10", "editor", "player(0)")
+
+// Animation Controller
+map ("alt-a", "editor", "gadgetToggle(\"animgadget\")")
+map ("control-d", "editor", "gadgetToggle(\"soundsetgadget\")")
+map ("alt-u", "editor", "gadgetToggle(\"soundgadget\")")
+
+// Misc
+map ("delete", "editor", "uiRemoveSelectedUnit")
+map ("control-k", "editor", "configToggle(\"cameraMovementLock\")")
+//map ("mouse3down", "editor", "uiMoveSelectionButtonDown")
+//map ("mouse3up", "editor", "uiMoveSelectionButtonUp editMode(\"none\")")
+//map ("shift-mouse3down", "editor", "uiMoveSelectionAddButtonDown")
+//map ("shift-mouse3up", "editor", "uiMoveSelectionAddButtonUp")
+map ("control-mousez", "editor", "uiRotateSelection")
+
+// painting
+map ("mouse1down", "paint", "uiPaint(true)")
+map ("alt-mouse1down", "paint", "uiSampleTerrainAtPointer")
+map ("mouse1up", "paint", "uiPaint(false)")
+//map ("alt-mouse1down", "paint", "uiPaint(true, true)")
+map ("mouse2down", "paint", "uiSampleTerrainAtPointer")
+map ("mouse2up", "paint", "")
+map ("esc", "paint", "editMode(\"none\")")
+
+// place units
+map ("mouse1down", "placeunit", "uiPlaceAtPointer")
+map ("mouse1up", "placeunit", "")
+map ("shift-mouse1down", "placeunit", "uiPlaceAtPointer(false)")
+map ("mouse2down", "placeunit", "uiIncPlaceVariation")
+map ("mouse2up", "placeunit", "")
+map ("shift-mouse2down", "placeunit", "uiDecPlaceVariation")
+map("mousez", "placeunit", "uiWheelRotatePlacedUnit")
+map ("esc", "placeunit", "uiClearCursor editMode(\"none\")")
+
+// paint forest
+map ("control-f", "editor", "editMode(\"paintforest\")")
+map ("mouse1down", "paintforest", "uiPaintForest(true)")
+map ("mouse1up", "paintforest", "uiPaintForest(false)")
+map ("esc", "paintforest", "uiPaintForest(false) editMode(\"none\")")
+
+// smoothing tools
+map ("mouse1down", "smooth", "uiSmooth(0)")
+map ("mouse1up", "smooth", "uiSmooth(1)")
+map ("mouse2down", "smooth", "uiSmooth(2)")
+map ("mouse2up", "smooth", "uiSmooth(3)")
+map ("esc", "smooth", "editMode(\"none\")")
+
+// edit forest tools
+map ("esc", "editforest", "editMode(\"none\") uiUnSelectForest")
+map ("mouse1down", "editforest", "uiSelectForestAtPointer")
+map ("mouse1up", "editforest", "")
+
+// edit water tools
+map ("esc", "editwater", "editMode(\"none\") uiUnSelectWater")
+map ("mouse1down", "editwater", "uiSelectWaterAtPointer")
+map ("mouse1up", "editwater", "")
+
+// paintwater tools
+map ("esc", "paintwater", "editMode(\"none\")")
+map ("mouse1down", "paintwater", "uiPaintWater(0)")
+map ("mouse1up", "paintwater", "uiPaintWater(1)"
+map ("d", "paintwater", "gadgetToggle(\"waterColorDialog\")")
+map ("c", "paintwater", "configToggle(\"waterColorPaint\")")
+
+// edit cliff tool
+map ("esc", "editcliff", "editMode(\"none\") uiUnSelectCliff")
+map ("mouse1down", "editcliff", "uiSelectCliffAtPointer")
+map ("mouse1up", "editcliff", "")
+map ("mouse2down", "editcliff", "uiToggleCliff")
+map ("mouse2up", "editcliff", "")
+
+// paintcliff tools
+map ("shift-c", "editor", "editMode(\"paintCliff\")")
+map ("esc", "paintcliff", "editMode(\"none\")")
+map ("mouse1down", "paintcliff", "uiPaintCliff(0)")
+map ("mouse1up", "paintcliff", "uiPaintCliff(1)"
+map ("mouse2down", "paintcliff", "uiPaintCliff(2)")
+map ("mouse2up", "paintcliff", "uiPaintCliff(3)")
+map ("control-mousez", "paintcliff", "uiScrollCliffHeight")
+
+// modify terrain
+map ("mouse1down", "modifyterrain", "uiTerrainSelection(0)")
+map ("mouse1up", "modifyterrain", "uiTerrainSelection(1)")
+map ("+[", "modifyterrain", "uiLowerTerrainSelection")
+map ("+]", "modifyterrain", "uiRaiseTerrainSelection")
+map ("+alt-[", "modifyterrain", "uiLowerTerrainSelection")
+map ("+alt-]", "modifyterrain", "uiRaiseTerrainSelection")
+map ("space", "modifyterrain", "uiFilterTerrainSelection")
+map ("control-space", "modifyterrain", "uiFlattenTerrainSelection")
+map ("esc","modifyterrain", "editMode(\"none\")")
+
+// Move unit mode
+map ("mouse1down",      "moveunit", "uiMoveSelectionButtonDown")
+map ("mouse1up",        "moveunit", "uiMoveSelectionButtonUp")
+map ("mousez",  "moveunit", "uiRotateSelection")
+
+map("+control-arrowleft", "moveunit", "uiYawUnitLeft")
+map("+control-arrowright", "moveunit", "uiYawUnitRight")
+map("+alt-control-arrowleft", "moveunit", "uiYawUnitLeft")
+map("+alt-control-arrowright", "moveunit", "uiYawUnitRight")
+//map("+control-arrowup", "moveunit", "uiPitchUnitDown")
+//map("+control-arrowdown", "moveunit", "uiPitchUnitUp")
+//map("+alt-control-arrowup", "moveunit", "uiPitchUnitDown")
+//map("+alt-control-arrowdown", "moveunit", "uiPitchUnitUp")
+//map("+s", "moveunit", "uiRollUnitLeft")
+//map("+d", "moveunit", "uiRollUnitRight")
+//map("+alt-s", "moveunit", "uiRollUnitLeft")
+//map("+alt-d", "moveunit", "uiRollUnitRight")
+
+map("+arrowleft", "moveunit", "uiMoveUnitLeft")
+map("+arrowright", "moveunit", "uiMoveUnitRight")
+map("+alt-arrowleft", "moveunit", "uiMoveUnitLeft")
+map("+alt-arrowright", "moveunit", "uiMoveUnitRight")
+map("+arrowup", "moveunit", "uiMoveUnitForward")
+map("+arrowdown", "moveunit", "uiMoveUnitBackward")
+map("+alt-arrowup", "moveunit", "uiMoveUnitForward")
+map("+alt-arrowdown", "moveunit", "uiMoveUnitBackward")
+map("esc", "moveunit", "editMode(\"none\")")
+
+// trigger area selection mode
+map ("mouse1up",     "trigselect", "")
+map ("mouse1down",   "trigselect", "uiTriggerSelectLocation()")
+map ("mouse2up",     "trigselect", "editMode(\"triggers\")")
+map ("mouse2down",   "trigselect", "")
+map ("esc",          "trigselect", "editMode(\"triggers\")")
+
+map ("esc",          "trigger", "editMode(\"none\")")
+map ("esc",          "triggroups", "editMode(\"none\")")
+map ("esc",          "camtrack", "editMode(\"none\")")
+
+map ("alt-b", "editor", "fogToBlack")
+
+// river creation
+map ("mouse1down", "createRiver", "")
+map ("mouse1up", "createRiver", "uiPlaceRiverWaypoint")
+map ("mouse2up", "createRiver", "uiRemoveRiverWaypoint")
+map ("esc", "createRiver", "editMode(\"none\")")
+map ("alt-z", "createRiver", "uiCreateRiver")
+
+// river shallow creation
+map ("mouse1down", "createRiverShallow", "")
+map ("mouse1up", "createRiverShallow", "uiPlaceRiverShallow")
+map ("mouse2up", "createRiverShallow", "uiRemoveRiverShallow")
+map ("mousez", "createRiverShallow", "uiWheelRotateRiverShallow")
+map ("esc", "createRiverShallow", "editMode(\"none\")")
+
+// Place Trade Route
+map ("mouse1down", "placeTradeRoute", "")
+map("mouse1up", "placeTradeRoute", "uiPlaceTradeRouteWaypoint")
+map ("mouse2up", "placeTradeRoute", "uiRemoveTradeRouteWaypoint")
+map ("esc", "placeTradeRoute", "editMode(\"none\")")
+
+// Select Unit Boards Unit
+map ("mouse1down", "selectTransportUnit", "")
+map("mouse1up", "selectTransportUnit", "uiSelectTransportUnit")
+map ("esc", "selectTransportUnit", "editMode(\"none\")")
