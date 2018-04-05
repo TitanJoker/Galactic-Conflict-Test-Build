@@ -1,0 +1,28 @@
+<!-- converted from XMB to XML -->
+
+<protounitsounddef>
+	<protounit name="zSwampSpeederPirates">
+		<soundtype name="Select">
+			<soundset name="SwampSpeederSelect"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="TankDeath"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="SwampSpeederSpawn"/>
+		</soundtype>
+		<soundtype name="Exists">
+			<soundset name="RepulsorLightExist"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="SwampSpeederMove"/>
+				</choice>
+				<choice name="enemy">
+					<soundset name="SwampSpeederAttack"/>
+				</choice>
+			</targetlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>

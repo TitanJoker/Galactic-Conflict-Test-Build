@@ -1,0 +1,59 @@
+<!-- converted from XMB to XML -->
+
+<protounitsounddef>
+	<protounit name="zDroideka">
+		<soundtype name="Select">
+			<soundset name="DroidekaSelect"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="x"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="DroidekaSpawn"/>
+		</soundtype>
+		<soundtype name="Hit">
+			<DamageTypeLogic>
+				<choice name="Hand">
+					<soundset name="SFXShieldAbsorbHand"/>
+				</choice>
+				<choice name="Ranged">
+					<soundset name="SFXShieldAbsorbRanged"/>
+				</choice>
+				<choice name="Siege">
+					<soundset name="SFXShieldAbsorbSiege"/>
+				</choice>
+			</DamageTypeLogic>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="DroidekaMove"/>
+				</choice>
+				<choice name="enemy">
+					<soundset name="DroidekaAttack"/>
+				</choice>
+			</targetlogic>
+		</soundtype>
+	</protounit>
+	<protounit name="zDroidekaUnshielded">
+		<soundtype name="Select">
+			<soundset name="DroidekaSelect"/>
+		</soundtype>
+		<soundtype name="Death">
+			<soundset name="x"/>
+		</soundtype>
+		<soundtype name="Creation">
+			<soundset name="DroidekaUnshieldSpawn"/>
+		</soundtype>
+		<soundtype name="Acknowledge">
+			<targetlogic>
+				<choice name="default">
+					<soundset name="DroidekaMove"/>
+				</choice>
+				<choice name="enemy">
+					<soundset name="DroidekaAttack"/>
+				</choice>
+			</targetlogic>
+		</soundtype>
+	</protounit>
+</protounitsounddef>
